@@ -1,0 +1,657 @@
+[INFO] [2020-11-10 13:05:21,790 +0200[ - UnifiedAgent version (pluginVersion) : 20.10.1
+[INFO] [2020-11-10 13:05:21,981 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:05:21,983 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:05:22,016 +0200[ - 
+##### general #####
+resolveAllDependencies=false
+requireKnownSha1=false
+projectTag=
+projectName=Sivan demo
+productName=Sivan demo
+log.level=debug
+includes=**/*.jar
+configFilePath=wss-generated-file.config
+apiKey=******
+#wss.url=https://saas.whitesourcesoftware.com/agent
+#whiteSourceFolderPath=.
+#userKey=
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#forceUpdate=false
+#forceCheckAllDependencies=false
+#failErrorLevel=DEFAULT
+#excludes=
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#docker.scanContainers=false
+#checkPolicies=false
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#ignoreEuaNotices=informational
+
+##### ANT #####
+#ant.resolveDependencies=false
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+archiveExtractionDepth=7
+#archiveIncludes=
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=false
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=false
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=false
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=false
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=false
+#case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=false
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=false
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=false
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=false
+
+##### maven #####
+maven.runPreStep=true
+maven.resolveDependencies=true
+maven.ignoreMvnTreeErrors=false
+maven.aggregateModules=false
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=false
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=false
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=false
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=false
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=false
+#php.removeDuplicateDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=false
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=false
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=false
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=false
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[WARN] [2020-11-10 13:05:23,310 +0200[ - Ivy cache 'C:\Users\GiladAronade\.ivy2\cache' not found
+[DEBUG] [2020-11-10 13:05:23,471 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	76
+Max memory (Mb): 	247
+Total memory (Mb): 	224
+Used memory (Mb): 	148
+
+[INFO] [2020-11-10 13:05:23,483 +0200[ - Starting Archive Extraction (may take a few minutes)
+[DEBUG] [2020-11-10 13:05:23,487 +0200[ - Base directory is C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master, extraction depth is set to 7
+[DEBUG] [2020-11-10 13:05:23,513 +0200[ - File/Folder Excluded: wss-unified-agent-20.10.1.jar
+[INFO] [2020-11-10 13:05:23,514 +0200[ - Starting analysis
+[INFO] [2020-11-10 13:05:23,515 +0200[ - Scanning directories [C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master] for package dependencies (may take a few minutes)
+[INFO] [2020-11-10 13:05:23,516 +0200[ - Included file types: **/*.jar
+[INFO] [2020-11-10 13:05:23,520 +0200[ - Excluded file types: 
+[INFO] [2020-11-10 13:05:23,521 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:23,522 +0200[ - Scanning C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:05:23,524 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\pom.xml
+[DEBUG] [2020-11-10 13:05:23,529 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\pom.xml
+[DEBUG] [2020-11-10 13:05:23,531 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\pom.xml
+[DEBUG] [2020-11-10 13:05:23,534 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\pom.xml
+[DEBUG] [2020-11-10 13:05:23,538 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\pom.xml
+[DEBUG] [2020-11-10 13:05:23,539 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\pom.xml
+[INFO] [2020-11-10 13:05:23,545 +0200[ - Attempting to resolve dependencies
+[INFO] [2020-11-10 13:05:23,545 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:23,551 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\pom.xml
+[DEBUG] [2020-11-10 13:05:23,554 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\pom.xml
+[DEBUG] [2020-11-10 13:05:23,559 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\pom.xml
+[DEBUG] [2020-11-10 13:05:23,561 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\pom.xml
+[DEBUG] [2020-11-10 13:05:23,565 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\pom.xml
+[DEBUG] [2020-11-10 13:05:23,566 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\pom.xml
+[DEBUG] [2020-11-10 13:05:23,571 +0200[ - found folders:
+
+[DEBUG] [2020-11-10 13:05:23,572 +0200[ - C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:05:23,572 +0200[ - C:\Sivan\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:05:23,573 +0200[ - 
+
+[DEBUG] [2020-11-10 13:05:23,580 +0200[ - C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master;C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master;true
+[DEBUG] [2020-11-10 13:05:23,581 +0200[ - ---> removed: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:05:23,582 +0200[ - 
+
+[DEBUG] [2020-11-10 13:05:23,584 +0200[ - Finishing reduce dependencies
+[INFO] [2020-11-10 13:05:23,586 +0200[ - Trying to resolve MAVEN dependencies
+[DEBUG] [2020-11-10 13:05:23,592 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in '.'
+[DEBUG] [2020-11-10 13:05:24,257 +0200[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-11-10 13:05:24,258 +0200[ - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T21:41:47+03:00)
+[DEBUG] [2020-11-10 13:05:24,259 +0200[ - Read line #2: Maven home: C:\apache-maven-3.6.0\bin\..
+[DEBUG] [2020-11-10 13:05:24,260 +0200[ - Read line #3: Java version: 12.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-12.0.1
+[DEBUG] [2020-11-10 13:05:24,264 +0200[ - Read line #4: Default locale: en_US, platform encoding: UTF-8
+[DEBUG] [2020-11-10 13:05:24,265 +0200[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-11-10 13:05:24,267 +0200[ - MAVEN installation status: true
+[DEBUG] [2020-11-10 13:05:24,267 +0200[ - The command was run under C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.
+[INFO] [2020-11-10 13:05:24,270 +0200[ - topFolder = C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:05:24,271 +0200[ - topFolder = C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:05:24,277 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master'
+[DEBUG] [2020-11-10 13:05:24,954 +0200[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-11-10 13:05:24,955 +0200[ - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T21:41:47+03:00)
+[DEBUG] [2020-11-10 13:05:24,957 +0200[ - Read line #2: Maven home: C:\apache-maven-3.6.0\bin\..
+[DEBUG] [2020-11-10 13:05:24,961 +0200[ - Read line #3: Java version: 12.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-12.0.1
+[DEBUG] [2020-11-10 13:05:24,961 +0200[ - Read line #4: Default locale: en_US, platform encoding: UTF-8
+[DEBUG] [2020-11-10 13:05:24,962 +0200[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-11-10 13:05:24,964 +0200[ - using: Maven 3.6.0
+[DEBUG] [2020-11-10 13:05:24,966 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn clean install -DskipTests' in 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master'
+[WARN] [2020-11-10 13:05:29,571 +0200[ - CommandLineProcess - executeProcessCommand - error in execute command 'cmd /c mvn clean install -DskipTests', Exit Status 1
+[DEBUG] [2020-11-10 13:05:29,573 +0200[ - Command result output lines for 'cmd /c mvn clean install -DskipTests':
+[DEBUG] [2020-11-10 13:05:29,575 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:05:29,576 +0200[ - Read line #2: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,579 +0200[ - Read line #3: [INFO] Reactor Build Order:
+[DEBUG] [2020-11-10 13:05:29,580 +0200[ - Read line #4: [INFO] 
+[DEBUG] [2020-11-10 13:05:29,581 +0200[ - Read line #5: [INFO] infra-util                                                         [jar]
+[DEBUG] [2020-11-10 13:05:29,582 +0200[ - Read line #6: [INFO] infra-mapper                                                       [jar]
+[DEBUG] [2020-11-10 13:05:29,584 +0200[ - Read line #7: [INFO] register-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:29,585 +0200[ - Read line #8: [INFO] business-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:29,589 +0200[ - Read line #9: [INFO] frontend-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:29,590 +0200[ - Read line #10: [INFO] elemental-source-parent                                            [pom]
+[DEBUG] [2020-11-10 13:05:29,590 +0200[ - Read line #11: [INFO] 
+[DEBUG] [2020-11-10 13:05:29,590 +0200[ - Read line #12: [INFO] -------------< org.elementalsource.infra.util:infra-util >--------------
+[DEBUG] [2020-11-10 13:05:29,591 +0200[ - Read line #13: [INFO] Building infra-util 1.0-SNAPSHOT                                   [1/6]
+[DEBUG] [2020-11-10 13:05:29,595 +0200[ - Read line #14: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:05:29,595 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:05:29,598 +0200[ - Read line #16: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ infra-util ---
+[DEBUG] [2020-11-10 13:05:29,599 +0200[ - Read line #17: [INFO] 
+[DEBUG] [2020-11-10 13:05:29,599 +0200[ - Read line #18: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infra-util ---
+[DEBUG] [2020-11-10 13:05:29,600 +0200[ - Read line #19: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:05:29,601 +0200[ - Read line #20: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\src\main\resources
+[DEBUG] [2020-11-10 13:05:29,601 +0200[ - Read line #21: [INFO] 
+[DEBUG] [2020-11-10 13:05:29,602 +0200[ - Read line #22: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ infra-util ---
+[DEBUG] [2020-11-10 13:05:29,603 +0200[ - Read line #23: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:05:29,608 +0200[ - Read line #24: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:05:29,608 +0200[ - Read line #25: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\classes
+[DEBUG] [2020-11-10 13:05:29,609 +0200[ - Read line #26: [INFO] -------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,609 +0200[ - Read line #27: [ERROR] COMPILATION ERROR : 
+[DEBUG] [2020-11-10 13:05:29,610 +0200[ - Read line #28: [INFO] -------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,611 +0200[ - Read line #29: [ERROR] Source option 5 is no longer supported. Use 7 or later.
+[DEBUG] [2020-11-10 13:05:29,611 +0200[ - Read line #30: [ERROR] Target option 5 is no longer supported. Use 7 or later.
+[DEBUG] [2020-11-10 13:05:29,612 +0200[ - Read line #31: [INFO] 2 errors 
+[DEBUG] [2020-11-10 13:05:29,613 +0200[ - Read line #32: [INFO] -------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,613 +0200[ - Read line #33: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,615 +0200[ - Read line #34: [INFO] Reactor Summary for elemental-source-parent 1.0-SNAPSHOT:
+[DEBUG] [2020-11-10 13:05:29,615 +0200[ - Read line #35: [INFO] 
+[DEBUG] [2020-11-10 13:05:29,618 +0200[ - Read line #36: [INFO] infra-util ......................................... FAILURE [  2.090 s]
+[DEBUG] [2020-11-10 13:05:29,619 +0200[ - Read line #37: [INFO] infra-mapper ....................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:29,620 +0200[ - Read line #38: [INFO] register-service ................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:29,621 +0200[ - Read line #39: [INFO] business-service ................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:29,621 +0200[ - Read line #40: [INFO] frontend-service ................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:29,622 +0200[ - Read line #41: [INFO] elemental-source-parent ............................ SKIPPED
+[DEBUG] [2020-11-10 13:05:29,623 +0200[ - Read line #42: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,624 +0200[ - Read line #43: [INFO] BUILD FAILURE
+[DEBUG] [2020-11-10 13:05:29,624 +0200[ - Read line #44: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,626 +0200[ - Read line #45: [INFO] Total time:  2.310 s
+[DEBUG] [2020-11-10 13:05:29,626 +0200[ - Read line #46: [INFO] Finished at: 2020-11-10T13:05:29+02:00
+[DEBUG] [2020-11-10 13:05:29,626 +0200[ - Read line #47: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:29,628 +0200[ - Read line #48: [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project infra-util: Compilation failure: Compilation failure: 
+[DEBUG] [2020-11-10 13:05:29,631 +0200[ - Read line #49: [ERROR] Source option 5 is no longer supported. Use 7 or later.
+[DEBUG] [2020-11-10 13:05:29,632 +0200[ - Read line #50: [ERROR] Target option 5 is no longer supported. Use 7 or later.
+[DEBUG] [2020-11-10 13:05:29,632 +0200[ - Read line #51: [ERROR] -> [Help 1]
+[DEBUG] [2020-11-10 13:05:29,633 +0200[ - Read line #52: [ERROR] 
+[DEBUG] [2020-11-10 13:05:29,634 +0200[ - Read line #53: [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[DEBUG] [2020-11-10 13:05:29,634 +0200[ - Read line #54: [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[DEBUG] [2020-11-10 13:05:29,635 +0200[ - Read line #55: [ERROR] 
+[DEBUG] [2020-11-10 13:05:29,635 +0200[ - Read line #56: [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[DEBUG] [2020-11-10 13:05:29,636 +0200[ - Read line #57: [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[WARN] [2020-11-10 13:05:29,639 +0200[ - Failed to execute the command cmd /c mvn clean install -DskipTests
+[WARN] [2020-11-10 13:05:29,641 +0200[ - maven.runPreStep = true, but the pre-step failed
+[DEBUG] [2020-11-10 13:05:29,642 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master'
+[WARN] [2020-11-10 13:05:35,220 +0200[ - CommandLineProcess - executeProcessCommand - error in execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B', Exit Status 1
+[DEBUG] [2020-11-10 13:05:35,222 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-10 13:05:35,224 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:05:35,227 +0200[ - Read line #2: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:35,228 +0200[ - Read line #3: [INFO] Reactor Build Order:
+[DEBUG] [2020-11-10 13:05:35,228 +0200[ - Read line #4: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,229 +0200[ - Read line #5: [INFO] infra-util                                                         [jar]
+[DEBUG] [2020-11-10 13:05:35,230 +0200[ - Read line #6: [INFO] infra-mapper                                                       [jar]
+[DEBUG] [2020-11-10 13:05:35,231 +0200[ - Read line #7: [INFO] register-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:35,234 +0200[ - Read line #8: [INFO] business-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:35,235 +0200[ - Read line #9: [INFO] frontend-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:35,239 +0200[ - Read line #10: [INFO] elemental-source-parent                                            [pom]
+[DEBUG] [2020-11-10 13:05:35,240 +0200[ - Read line #11: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,241 +0200[ - Read line #12: [INFO] -------------< org.elementalsource.infra.util:infra-util >--------------
+[DEBUG] [2020-11-10 13:05:35,242 +0200[ - Read line #13: [INFO] Building infra-util 1.0-SNAPSHOT                                   [1/6]
+[DEBUG] [2020-11-10 13:05:35,245 +0200[ - Read line #14: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:05:35,246 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,249 +0200[ - Read line #16: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ infra-util ---
+[DEBUG] [2020-11-10 13:05:35,250 +0200[ - Read line #17: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:05:35,250 +0200[ - Read line #18: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,252 +0200[ - Read line #19: [INFO] -----------< org.elementalsource.frontend:frontend-service >------------
+[DEBUG] [2020-11-10 13:05:35,253 +0200[ - Read line #20: [INFO] Building frontend-service 1.0-SNAPSHOT                             [2/6]
+[DEBUG] [2020-11-10 13:05:35,257 +0200[ - Read line #21: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:05:35,260 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,261 +0200[ - Read line #23: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ frontend-service ---
+[DEBUG] [2020-11-10 13:05:35,263 +0200[ - Read line #24: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:05:35,264 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,265 +0200[ - Read line #26: [INFO] ------------< org.elementalsource:elemental-source-parent >-------------
+[DEBUG] [2020-11-10 13:05:35,270 +0200[ - Read line #27: [INFO] Building elemental-source-parent 1.0-SNAPSHOT                      [3/6]
+[DEBUG] [2020-11-10 13:05:35,272 +0200[ - Read line #28: [INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] [2020-11-10 13:05:35,274 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,274 +0200[ - Read line #30: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ elemental-source-parent ---
+[DEBUG] [2020-11-10 13:05:35,276 +0200[ - Read line #31: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:05:35,277 +0200[ - Read line #32: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,278 +0200[ - Read line #33: [INFO] -----------< org.elementalsource.infra.mapper:infra-mapper >------------
+[DEBUG] [2020-11-10 13:05:35,278 +0200[ - Read line #34: [INFO] Building infra-mapper 1.0-SNAPSHOT                                 [4/6]
+[DEBUG] [2020-11-10 13:05:35,279 +0200[ - Read line #35: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:05:35,283 +0200[ - Read line #36: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:35,286 +0200[ - Read line #37: [INFO] Reactor Summary for elemental-source-parent 1.0-SNAPSHOT:
+[DEBUG] [2020-11-10 13:05:35,286 +0200[ - Read line #38: [INFO] 
+[DEBUG] [2020-11-10 13:05:35,287 +0200[ - Read line #39: [INFO] infra-util ......................................... SUCCESS [  2.108 s]
+[DEBUG] [2020-11-10 13:05:35,288 +0200[ - Read line #40: [INFO] infra-mapper ....................................... FAILURE [  0.117 s]
+[DEBUG] [2020-11-10 13:05:35,288 +0200[ - Read line #41: [INFO] register-service ................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:35,289 +0200[ - Read line #42: [INFO] business-service ................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:35,290 +0200[ - Read line #43: [INFO] frontend-service ................................... SUCCESS [  0.026 s]
+[DEBUG] [2020-11-10 13:05:35,291 +0200[ - Read line #44: [INFO] elemental-source-parent ............................ SUCCESS [  0.017 s]
+[DEBUG] [2020-11-10 13:05:35,295 +0200[ - Read line #45: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:35,296 +0200[ - Read line #46: [INFO] BUILD FAILURE
+[DEBUG] [2020-11-10 13:05:35,297 +0200[ - Read line #47: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:35,298 +0200[ - Read line #48: [INFO] Total time:  3.217 s
+[DEBUG] [2020-11-10 13:05:35,298 +0200[ - Read line #49: [INFO] Finished at: 2020-11-10T13:05:35+02:00
+[DEBUG] [2020-11-10 13:05:35,299 +0200[ - Read line #50: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:35,300 +0200[ - Read line #51: [ERROR] Failed to execute goal on project infra-mapper: Could not resolve dependencies for project org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT: Could not find artifact org.elementalsource.infra.util:infra-util:jar:1.0-SNAPSHOT -> [Help 1]
+[DEBUG] [2020-11-10 13:05:35,300 +0200[ - Read line #52: [ERROR] 
+[DEBUG] [2020-11-10 13:05:35,301 +0200[ - Read line #53: [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[DEBUG] [2020-11-10 13:05:35,302 +0200[ - Read line #54: [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[DEBUG] [2020-11-10 13:05:35,304 +0200[ - Read line #55: [ERROR] 
+[DEBUG] [2020-11-10 13:05:35,308 +0200[ - Read line #56: [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[DEBUG] [2020-11-10 13:05:35,309 +0200[ - Read line #57: [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[DEBUG] [2020-11-10 13:05:35,310 +0200[ - Read line #58: [ERROR] 
+[DEBUG] [2020-11-10 13:05:35,310 +0200[ - Read line #59: [ERROR] After correcting the problems, you can resume the build with the command
+[DEBUG] [2020-11-10 13:05:35,311 +0200[ - Read line #60: [ERROR]   mvn <goals> -rf :infra-mapper
+[DEBUG] [2020-11-10 13:05:35,314 +0200[ - Failed to execute the command cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B
+[DEBUG] [2020-11-10 13:05:35,316 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt' in 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master'
+[WARN] [2020-11-10 13:05:40,693 +0200[ - CommandLineProcess - executeProcessCommand - error in execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt', Exit Status 1
+[DEBUG] [2020-11-10 13:05:40,694 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt':
+[DEBUG] [2020-11-10 13:05:40,695 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:05:40,699 +0200[ - Read line #2: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:40,699 +0200[ - Read line #3: [INFO] Reactor Build Order:
+[DEBUG] [2020-11-10 13:05:40,700 +0200[ - Read line #4: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,701 +0200[ - Read line #5: [INFO] infra-util                                                         [jar]
+[DEBUG] [2020-11-10 13:05:40,701 +0200[ - Read line #6: [INFO] infra-mapper                                                       [jar]
+[DEBUG] [2020-11-10 13:05:40,702 +0200[ - Read line #7: [INFO] register-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:40,703 +0200[ - Read line #8: [INFO] business-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:40,703 +0200[ - Read line #9: [INFO] frontend-service                                                   [jar]
+[DEBUG] [2020-11-10 13:05:40,703 +0200[ - Read line #10: [INFO] elemental-source-parent                                            [pom]
+[DEBUG] [2020-11-10 13:05:40,706 +0200[ - Read line #11: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,707 +0200[ - Read line #12: [INFO] -------------< org.elementalsource.infra.util:infra-util >--------------
+[DEBUG] [2020-11-10 13:05:40,708 +0200[ - Read line #13: [INFO] Building infra-util 1.0-SNAPSHOT                                   [1/6]
+[DEBUG] [2020-11-10 13:05:40,708 +0200[ - Read line #14: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:05:40,710 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,710 +0200[ - Read line #16: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ infra-util ---
+[DEBUG] [2020-11-10 13:05:40,710 +0200[ - Read line #17: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:05:40,710 +0200[ - Read line #18: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,711 +0200[ - Read line #19: [INFO] -----------< org.elementalsource.frontend:frontend-service >------------
+[DEBUG] [2020-11-10 13:05:40,712 +0200[ - Read line #20: [INFO] Building frontend-service 1.0-SNAPSHOT                             [2/6]
+[DEBUG] [2020-11-10 13:05:40,712 +0200[ - Read line #21: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:05:40,713 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,713 +0200[ - Read line #23: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ frontend-service ---
+[DEBUG] [2020-11-10 13:05:40,714 +0200[ - Read line #24: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:05:40,719 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,719 +0200[ - Read line #26: [INFO] ------------< org.elementalsource:elemental-source-parent >-------------
+[DEBUG] [2020-11-10 13:05:40,719 +0200[ - Read line #27: [INFO] Building elemental-source-parent 1.0-SNAPSHOT                      [3/6]
+[DEBUG] [2020-11-10 13:05:40,720 +0200[ - Read line #28: [INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] [2020-11-10 13:05:40,720 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,721 +0200[ - Read line #30: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ elemental-source-parent ---
+[DEBUG] [2020-11-10 13:05:40,722 +0200[ - Read line #31: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:05:40,724 +0200[ - Read line #32: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,724 +0200[ - Read line #33: [INFO] -----------< org.elementalsource.infra.mapper:infra-mapper >------------
+[DEBUG] [2020-11-10 13:05:40,726 +0200[ - Read line #34: [INFO] Building infra-mapper 1.0-SNAPSHOT                                 [4/6]
+[DEBUG] [2020-11-10 13:05:40,726 +0200[ - Read line #35: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:05:40,726 +0200[ - Read line #36: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:40,730 +0200[ - Read line #37: [INFO] Reactor Summary for elemental-source-parent 1.0-SNAPSHOT:
+[DEBUG] [2020-11-10 13:05:40,730 +0200[ - Read line #38: [INFO] 
+[DEBUG] [2020-11-10 13:05:40,731 +0200[ - Read line #39: [INFO] infra-util ......................................... SUCCESS [  2.033 s]
+[DEBUG] [2020-11-10 13:05:40,731 +0200[ - Read line #40: [INFO] infra-mapper ....................................... FAILURE [  0.175 s]
+[DEBUG] [2020-11-10 13:05:40,732 +0200[ - Read line #41: [INFO] register-service ................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:40,732 +0200[ - Read line #42: [INFO] business-service ................................... SKIPPED
+[DEBUG] [2020-11-10 13:05:40,733 +0200[ - Read line #43: [INFO] frontend-service ................................... SUCCESS [  0.039 s]
+[DEBUG] [2020-11-10 13:05:40,734 +0200[ - Read line #44: [INFO] elemental-source-parent ............................ SUCCESS [  0.020 s]
+[DEBUG] [2020-11-10 13:05:40,736 +0200[ - Read line #45: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:40,736 +0200[ - Read line #46: [INFO] BUILD FAILURE
+[DEBUG] [2020-11-10 13:05:40,736 +0200[ - Read line #47: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:40,736 +0200[ - Read line #48: [INFO] Total time:  3.184 s
+[DEBUG] [2020-11-10 13:05:40,737 +0200[ - Read line #49: [INFO] Finished at: 2020-11-10T13:05:40+02:00
+[DEBUG] [2020-11-10 13:05:40,737 +0200[ - Read line #50: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:40,741 +0200[ - Read line #51: [ERROR] Failed to execute goal on project infra-mapper: Could not resolve dependencies for project org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT: Could not find artifact org.elementalsource.infra.util:infra-util:jar:1.0-SNAPSHOT -> [Help 1]
+[DEBUG] [2020-11-10 13:05:40,741 +0200[ - Read line #52: [ERROR] 
+[DEBUG] [2020-11-10 13:05:40,743 +0200[ - Read line #53: [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[DEBUG] [2020-11-10 13:05:40,744 +0200[ - Read line #54: [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[DEBUG] [2020-11-10 13:05:40,744 +0200[ - Read line #55: [ERROR] 
+[DEBUG] [2020-11-10 13:05:40,744 +0200[ - Read line #56: [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[DEBUG] [2020-11-10 13:05:40,745 +0200[ - Read line #57: [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[DEBUG] [2020-11-10 13:05:40,746 +0200[ - Read line #58: [ERROR] 
+[DEBUG] [2020-11-10 13:05:40,746 +0200[ - Read line #59: [ERROR] After correcting the problems, you can resume the build with the command
+[DEBUG] [2020-11-10 13:05:40,747 +0200[ - Read line #60: [ERROR]   mvn <goals> -rf :infra-mapper
+[WARN] [2020-11-10 13:05:40,749 +0200[ - maven.resolveDependencies = true, but mvn dependency:tree failed
+[WARN] [2020-11-10 13:05:40,749 +0200[ - Failed to scan and send cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt
+[WARN] [2020-11-10 13:05:40,750 +0200[ - Failed getting dependencies after running 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:05:40,778 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:05:40,779 +0200[ - total resolved projects =0
+[INFO] [2020-11-10 13:05:40,781 +0200[ - Scanning directories [C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2020-11-10 13:05:40,785 +0200[ - Scanning C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:05:40,799 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\wss-unified-agent-20.10.1.jar
+[INFO] [2020-11-10 13:05:40,801 +0200[ - Total files found according to the includes/excludes pattern: 1
+[INFO] [2020-11-10 13:05:41,295 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:05:41,296 +0200[ - Finished analyzing Files
+[DEBUG] [2020-11-10 13:05:41,297 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	70
+Max memory (Mb): 	247
+Total memory (Mb): 	224
+Used memory (Mb): 	154
+
+[INFO] [2020-11-10 13:05:41,424 +0200[ - Initializing WhiteSource Client
+[DEBUG] [2020-11-10 13:05:41,424 +0200[ - Setting project tags
+[INFO] [2020-11-10 13:05:41,428 +0200[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2020-11-10 13:05:42,468 +0200[ - UpdateType set to OVERRIDE 
+[INFO] [2020-11-10 13:05:42,469 +0200[ - Sending Update
+[INFO] [2020-11-10 13:05:42,473 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:05:45,525 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:05:45,525 +0200[ - Inventory update results for Sivan demo
+[INFO] [2020-11-10 13:05:45,527 +0200[ - No new projects found.
+[INFO] [2020-11-10 13:05:45,531 +0200[ - Updated projects:
+[INFO] [2020-11-10 13:05:45,531 +0200[ - # Sivan demo
+[INFO] [2020-11-10 13:05:45,533 +0200[ - Project name: Sivan demo, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257685
+[INFO] [2020-11-10 13:05:45,534 +0200[ - Support Token: 0e61d067186794060a281d4524abbcdaa1605006344436
+[DEBUG] [2020-11-10 13:05:45,536 +0200[ - Process finished with exit code SUCCESS (Inventory update results for Sivan demo
+No new projects found.
+Updated projects:
+Sivan demo
+
+Project name: Sivan demo, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257685
+Support Token: 0e61d067186794060a281d4524abbcdaa1605006344436)
+[INFO] [2020-11-10 13:05:45,537 +0200[ - Log files are found at: .\whitesource\Tue-Nov-10-2020-13.05.21
+[INFO] [2020-11-10 13:05:45,548 +0200[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.186               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:17.191               0 dependencies
+   MAVEN                                             COMPLETED                  00:00:17.191               0 dependencies
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.537               1 source/binary files
+   jar                                               COMPLETED                    --------                 1 source/binary files
+Update Inventory                                     COMPLETED                  00:00:03.052               1 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:20.966
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+

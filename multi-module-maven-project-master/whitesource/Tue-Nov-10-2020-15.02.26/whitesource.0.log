@@ -1,0 +1,425 @@
+[INFO] [2020-11-10 15:02:26,725 +0200[ - UnifiedAgent version (pluginVersion) : 20.10.1
+[INFO] [2020-11-10 15:02:27,013 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 15:02:27,015 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 15:02:27,065 +0200[ - 
+##### general #####
+resolveAllDependencies=false
+requireKnownSha1=false
+projectTag=
+projectName=Sivan demo
+productName=Sivan demo
+log.level=debug
+includes=**/*.jar
+configFilePath=wss-generated-file.config
+apiKey=******
+#wss.url=https://saas.whitesourcesoftware.com/agent
+#whiteSourceFolderPath=.
+#userKey=
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#forceUpdate=false
+#forceCheckAllDependencies=false
+#failErrorLevel=DEFAULT
+#excludes=
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#docker.scanContainers=false
+#checkPolicies=false
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#ignoreEuaNotices=informational
+
+##### ANT #####
+#ant.resolveDependencies=false
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+archiveExtractionDepth=7
+#archiveIncludes=
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=false
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=false
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=false
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=false
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=false
+#case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=false
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=false
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=false
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=false
+
+##### maven #####
+maven.runPreStep=true
+maven.ignoreMvnTreeErrors=false
+maven.aggregateModules=false
+#maven.resolveDependencies=false
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=false
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=false
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=false
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=false
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=false
+#php.removeDuplicateDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=false
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=false
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=false
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=false
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[WARN] [2020-11-10 15:02:28,997 +0200[ - Ivy cache 'C:\Users\GiladAronade\.ivy2\cache' not found
+[DEBUG] [2020-11-10 15:02:29,207 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	76
+Max memory (Mb): 	247
+Total memory (Mb): 	224
+Used memory (Mb): 	148
+
+[INFO] [2020-11-10 15:02:29,224 +0200[ - Starting Archive Extraction (may take a few minutes)
+[DEBUG] [2020-11-10 15:02:29,229 +0200[ - Base directory is C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master, extraction depth is set to 7
+[DEBUG] [2020-11-10 15:02:29,245 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:02:29,261 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:02:29,275 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:02:29,287 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:02:29,307 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:02:29,319 +0200[ - File/Folder Excluded: wss-unified-agent-20.10.1.jar
+[DEBUG] [2020-11-10 15:02:29,320 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\xModuleAnalyzer-20.8.1.jar
+[DEBUG] [2020-11-10 15:06:39,533 +0200[ - Unpack directory: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110150225_TAYJVM\archiveExtraction_CJZPOY\20201110150229, parent file: C:\Sivan\multi-module-maven-project-master
+[INFO] [2020-11-10 15:06:39,533 +0200[ - Starting analysis
+[INFO] [2020-11-10 15:06:39,534 +0200[ - Scanning directories [C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110150225_TAYJVM\archiveExtraction_CJZPOY\20201110150229, C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master] for package dependencies (may take a few minutes)
+[INFO] [2020-11-10 15:06:39,534 +0200[ - Included file types: **/*.jar
+[INFO] [2020-11-10 15:06:39,535 +0200[ - Excluded file types: 
+[INFO] [2020-11-10 15:06:39,536 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 15:06:39,536 +0200[ - Scanning C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110150225_TAYJVM\archiveExtraction_CJZPOY\20201110150229
+[DEBUG] [2020-11-10 15:06:39,981 +0200[ - Scanning C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[INFO] [2020-11-10 15:06:40,028 +0200[ - Scanning directories [C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110150225_TAYJVM\archiveExtraction_CJZPOY\20201110150229, C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2020-11-10 15:06:40,028 +0200[ - Scanning C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110150225_TAYJVM\archiveExtraction_CJZPOY\20201110150229
+[DEBUG] [2020-11-10 15:06:40,775 +0200[ - Scanning C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 15:06:40,781 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:06:40,796 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:06:40,807 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:06:40,817 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:06:40,830 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 15:06:40,837 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\wss-unified-agent-20.10.1.jar
+[DEBUG] [2020-11-10 15:06:40,839 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\xModuleAnalyzer-20.8.1.jar
+[INFO] [2020-11-10 15:06:40,847 +0200[ - Total files found according to the includes/excludes pattern: 7
+[INFO] [2020-11-10 15:06:44,391 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 15:07:09,195 +0200[ - Finished analyzing Files
+[DEBUG] [2020-11-10 15:07:09,195 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	71
+Max memory (Mb): 	247
+Total memory (Mb): 	224
+Used memory (Mb): 	153
+
+[INFO] [2020-11-10 15:07:09,330 +0200[ - Initializing WhiteSource Client
+[DEBUG] [2020-11-10 15:07:09,330 +0200[ - Setting project tags
+[INFO] [2020-11-10 15:07:09,335 +0200[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2020-11-10 15:07:09,465 +0200[ - UpdateType set to OVERRIDE 
+[INFO] [2020-11-10 15:07:09,466 +0200[ - Sending Update
+[INFO] [2020-11-10 15:07:09,469 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 15:07:13,231 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 15:07:13,232 +0200[ - Inventory update results for Sivan demo
+[INFO] [2020-11-10 15:07:13,234 +0200[ - Newly created projects:
+[INFO] [2020-11-10 15:07:13,237 +0200[ - # Sivan demo
+[INFO] [2020-11-10 15:07:13,238 +0200[ - No projects were updated.
+[INFO] [2020-11-10 15:07:13,239 +0200[ - Project name: Sivan demo, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3258277
+[INFO] [2020-11-10 15:07:13,239 +0200[ - Support Token: 01de5c555291e4f1eacaff883d5508dd41605013631664
+[DEBUG] [2020-11-10 15:07:13,241 +0200[ - Process finished with exit code SUCCESS (Inventory update results for Sivan demo
+Newly created projects:
+Sivan demo
+No projects were updated.
+
+Project name: Sivan demo, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3258277
+Support Token: 01de5c555291e4f1eacaff883d5508dd41605013631664)
+[INFO] [2020-11-10 15:07:13,241 +0200[ - Log files are found at: .\whitesource\Tue-Nov-10-2020-15.02.26
+[INFO] [2020-11-10 15:07:13,255 +0200[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.278               --------
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:04.854               7 source/binary files
+   jar                                               COMPLETED                    --------                 7 source/binary files
+Update Inventory                                     COMPLETED                  00:00:03.762               0 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:08.894
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+

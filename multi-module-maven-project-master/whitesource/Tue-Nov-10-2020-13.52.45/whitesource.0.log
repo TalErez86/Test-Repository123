@@ -1,0 +1,1649 @@
+[INFO] [2020-11-10 13:52:45,508 +0200[ - UnifiedAgent version (pluginVersion) : 20.10.1
+[INFO] [2020-11-10 13:52:45,625 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:52:45,626 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:52:45,648 +0200[ - 
+##### general #####
+resolveAllDependencies=false
+requireKnownSha1=false
+projectTag=
+projectName=Sivan demo
+productName=Sivan demo
+log.level=debug
+includes=**/*.jar
+configFilePath=wss-generated-file.config
+apiKey=******
+#wss.url=https://saas.whitesourcesoftware.com/agent
+#whiteSourceFolderPath=.
+#userKey=
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#offline=false
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#forceUpdate=false
+#forceCheckAllDependencies=false
+#failErrorLevel=DEFAULT
+#excludes=
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#docker.scanContainers=false
+#checkPolicies=false
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#ignoreEuaNotices=informational
+
+##### ANT #####
+#ant.resolveDependencies=false
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+archiveExtractionDepth=7
+#archiveIncludes=
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=false
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=false
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=false
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=false
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+followSymbolicLinks=false
+#case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=false
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=false
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.aggregateModules=false
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=false
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=false
+
+##### maven #####
+maven.runPreStep=true
+maven.resolveDependencies=true
+maven.ignoreMvnTreeErrors=false
+maven.aggregateModules=false
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=false
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=false
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=false
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=false
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=false
+#php.removeDuplicateDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=false
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=false
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=false
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=false
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[WARN] [2020-11-10 13:52:46,619 +0200[ - Ivy cache 'C:\Users\GiladAronade\.ivy2\cache' not found
+[DEBUG] [2020-11-10 13:52:46,746 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	76
+Max memory (Mb): 	247
+Total memory (Mb): 	224
+Used memory (Mb): 	148
+
+[INFO] [2020-11-10 13:52:46,757 +0200[ - Starting Archive Extraction (may take a few minutes)
+[DEBUG] [2020-11-10 13:52:46,759 +0200[ - Base directory is C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master, extraction depth is set to 7
+[DEBUG] [2020-11-10 13:52:46,769 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:46,777 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:46,784 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:46,791 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:46,799 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:46,802 +0200[ - File/Folder Excluded: wss-unified-agent-20.10.1.jar
+[DEBUG] [2020-11-10 13:52:47,050 +0200[ - Unpack directory: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246, parent file: C:\Sivan\multi-module-maven-project-master
+[INFO] [2020-11-10 13:52:47,051 +0200[ - Starting analysis
+[INFO] [2020-11-10 13:52:47,053 +0200[ - Scanning directories [C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246, C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master] for package dependencies (may take a few minutes)
+[INFO] [2020-11-10 13:52:47,057 +0200[ - Included file types: **/*.jar
+[INFO] [2020-11-10 13:52:47,057 +0200[ - Excluded file types: 
+[INFO] [2020-11-10 13:52:47,059 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:52:47,059 +0200[ - Scanning C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246
+[DEBUG] [2020-11-10 13:52:47,061 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business\business-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,065 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend\frontend-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,071 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\pom.xml
+[DEBUG] [2020-11-10 13:52:47,074 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\pom.xml
+[DEBUG] [2020-11-10 13:52:47,077 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register\register-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,078 +0200[ - Scanning C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:52:47,079 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,085 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,090 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\pom.xml
+[DEBUG] [2020-11-10 13:52:47,096 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\pom.xml
+[DEBUG] [2020-11-10 13:52:47,101 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\pom.xml
+[DEBUG] [2020-11-10 13:52:47,102 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\pom.xml
+[INFO] [2020-11-10 13:52:47,109 +0200[ - Attempting to resolve dependencies
+[INFO] [2020-11-10 13:52:47,109 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:52:47,116 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business\business-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,119 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend\frontend-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,122 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\pom.xml
+[DEBUG] [2020-11-10 13:52:47,124 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\pom.xml
+[DEBUG] [2020-11-10 13:52:47,127 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register\register-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,130 +0200[ - found folders:
+
+[DEBUG] [2020-11-10 13:52:47,132 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper
+[DEBUG] [2020-11-10 13:52:47,132 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business
+[DEBUG] [2020-11-10 13:52:47,133 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register
+[DEBUG] [2020-11-10 13:52:47,134 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util
+[DEBUG] [2020-11-10 13:52:47,136 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend
+[DEBUG] [2020-11-10 13:52:47,137 +0200[ - 
+
+[DEBUG] [2020-11-10 13:52:47,142 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util;false
+[DEBUG] [2020-11-10 13:52:47,142 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util;false
+[DEBUG] [2020-11-10 13:52:47,143 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util;false
+[DEBUG] [2020-11-10 13:52:47,144 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util;false
+[DEBUG] [2020-11-10 13:52:47,145 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper;false
+[DEBUG] [2020-11-10 13:52:47,148 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper;false
+[DEBUG] [2020-11-10 13:52:47,149 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper;false
+[DEBUG] [2020-11-10 13:52:47,150 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business\business-service;false
+[DEBUG] [2020-11-10 13:52:47,151 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business\business-service;false
+[DEBUG] [2020-11-10 13:52:47,152 +0200[ - C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend;C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register\register-service;false
+[DEBUG] [2020-11-10 13:52:47,152 +0200[ - 
+
+[DEBUG] [2020-11-10 13:52:47,154 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,160 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,165 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\pom.xml
+[DEBUG] [2020-11-10 13:52:47,170 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\pom.xml
+[DEBUG] [2020-11-10 13:52:47,175 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\pom.xml
+[DEBUG] [2020-11-10 13:52:47,176 +0200[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\pom.xml
+[DEBUG] [2020-11-10 13:52:47,181 +0200[ - found folders:
+
+[DEBUG] [2020-11-10 13:52:47,182 +0200[ - C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:52:47,182 +0200[ - C:\Sivan\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:52:47,184 +0200[ - 
+
+[DEBUG] [2020-11-10 13:52:47,185 +0200[ - C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master;C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master;true
+[DEBUG] [2020-11-10 13:52:47,185 +0200[ - ---> removed: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:52:47,186 +0200[ - 
+
+[DEBUG] [2020-11-10 13:52:47,187 +0200[ - Finishing reduce dependencies
+[INFO] [2020-11-10 13:52:47,188 +0200[ - Trying to resolve MAVEN dependencies
+[DEBUG] [2020-11-10 13:52:47,194 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in '.'
+[DEBUG] [2020-11-10 13:52:47,704 +0200[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-11-10 13:52:47,705 +0200[ - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T21:41:47+03:00)
+[DEBUG] [2020-11-10 13:52:47,707 +0200[ - Read line #2: Maven home: C:\apache-maven-3.6.0\bin\..
+[DEBUG] [2020-11-10 13:52:47,710 +0200[ - Read line #3: Java version: 12.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-12.0.1
+[DEBUG] [2020-11-10 13:52:47,711 +0200[ - Read line #4: Default locale: en_US, platform encoding: UTF-8
+[DEBUG] [2020-11-10 13:52:47,712 +0200[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-11-10 13:52:47,713 +0200[ - MAVEN installation status: true
+[DEBUG] [2020-11-10 13:52:47,714 +0200[ - The command was run under C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.
+[INFO] [2020-11-10 13:52:47,714 +0200[ - topFolder = C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:52:47,720 +0200[ - topFolder = C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:52:47,723 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master'
+[DEBUG] [2020-11-10 13:52:48,252 +0200[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-11-10 13:52:48,252 +0200[ - Read line #1: Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T21:41:47+03:00)
+[DEBUG] [2020-11-10 13:52:48,253 +0200[ - Read line #2: Maven home: C:\apache-maven-3.6.0\bin\..
+[DEBUG] [2020-11-10 13:52:48,257 +0200[ - Read line #3: Java version: 12.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-12.0.1
+[DEBUG] [2020-11-10 13:52:48,258 +0200[ - Read line #4: Default locale: en_US, platform encoding: UTF-8
+[DEBUG] [2020-11-10 13:52:48,258 +0200[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-11-10 13:52:48,260 +0200[ - using: Maven 3.6.0
+[DEBUG] [2020-11-10 13:52:48,261 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn clean install -DskipTests' in 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master'
+[DEBUG] [2020-11-10 13:52:56,288 +0200[ - Command result output lines for 'cmd /c mvn clean install -DskipTests':
+[DEBUG] [2020-11-10 13:52:56,289 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:52:56,290 +0200[ - Read line #2: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:52:56,291 +0200[ - Read line #3: [INFO] Reactor Build Order:
+[DEBUG] [2020-11-10 13:52:56,295 +0200[ - Read line #4: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,296 +0200[ - Read line #5: [INFO] infra-util                                                         [jar]
+[DEBUG] [2020-11-10 13:52:56,297 +0200[ - Read line #6: [INFO] infra-mapper                                                       [jar]
+[DEBUG] [2020-11-10 13:52:56,297 +0200[ - Read line #7: [INFO] register-service                                                   [jar]
+[DEBUG] [2020-11-10 13:52:56,298 +0200[ - Read line #8: [INFO] business-service                                                   [jar]
+[DEBUG] [2020-11-10 13:52:56,301 +0200[ - Read line #9: [INFO] frontend-service                                                   [jar]
+[DEBUG] [2020-11-10 13:52:56,304 +0200[ - Read line #10: [INFO] elemental-source-parent                                            [pom]
+[DEBUG] [2020-11-10 13:52:56,304 +0200[ - Read line #11: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,305 +0200[ - Read line #12: [INFO] -------------< org.elementalsource.infra.util:infra-util >--------------
+[DEBUG] [2020-11-10 13:52:56,306 +0200[ - Read line #13: [INFO] Building infra-util 1.0-SNAPSHOT                                   [1/6]
+[DEBUG] [2020-11-10 13:52:56,306 +0200[ - Read line #14: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:52:56,307 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,308 +0200[ - Read line #16: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,308 +0200[ - Read line #17: [INFO] Deleting C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target
+[DEBUG] [2020-11-10 13:52:56,309 +0200[ - Read line #18: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,313 +0200[ - Read line #19: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,314 +0200[ - Read line #20: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,314 +0200[ - Read line #21: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\src\main\resources
+[DEBUG] [2020-11-10 13:52:56,315 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,316 +0200[ - Read line #23: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,316 +0200[ - Read line #24: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,317 +0200[ - Read line #25: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,318 +0200[ - Read line #26: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\classes
+[DEBUG] [2020-11-10 13:52:56,318 +0200[ - Read line #27: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,319 +0200[ - Read line #28: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,320 +0200[ - Read line #29: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,320 +0200[ - Read line #30: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\src\test\resources
+[DEBUG] [2020-11-10 13:52:56,320 +0200[ - Read line #31: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,321 +0200[ - Read line #32: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,324 +0200[ - Read line #33: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,325 +0200[ - Read line #34: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,326 +0200[ - Read line #35: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\test-classes
+[DEBUG] [2020-11-10 13:52:56,327 +0200[ - Read line #36: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,328 +0200[ - Read line #37: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,328 +0200[ - Read line #38: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:52:56,329 +0200[ - Read line #39: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,329 +0200[ - Read line #40: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,330 +0200[ - Read line #41: [INFO] Building jar: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,330 +0200[ - Read line #42: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,331 +0200[ - Read line #43: [INFO] --- maven-install-plugin:2.4:install (default-install) @ infra-util ---
+[DEBUG] [2020-11-10 13:52:56,332 +0200[ - Read line #44: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\infra-util-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\util\infra-util\1.0-SNAPSHOT\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,332 +0200[ - Read line #45: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\util\infra-util\1.0-SNAPSHOT\infra-util-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:52:56,333 +0200[ - Read line #46: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,337 +0200[ - Read line #47: [INFO] -----------< org.elementalsource.infra.mapper:infra-mapper >------------
+[DEBUG] [2020-11-10 13:52:56,337 +0200[ - Read line #48: [INFO] Building infra-mapper 1.0-SNAPSHOT                                 [2/6]
+[DEBUG] [2020-11-10 13:52:56,338 +0200[ - Read line #49: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:52:56,339 +0200[ - Read line #50: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,340 +0200[ - Read line #51: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,340 +0200[ - Read line #52: [INFO] Deleting C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target
+[DEBUG] [2020-11-10 13:52:56,341 +0200[ - Read line #53: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,341 +0200[ - Read line #54: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,342 +0200[ - Read line #55: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,343 +0200[ - Read line #56: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\src\main\resources
+[DEBUG] [2020-11-10 13:52:56,344 +0200[ - Read line #57: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,345 +0200[ - Read line #58: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,348 +0200[ - Read line #59: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,348 +0200[ - Read line #60: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,349 +0200[ - Read line #61: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\classes
+[DEBUG] [2020-11-10 13:52:56,350 +0200[ - Read line #62: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,351 +0200[ - Read line #63: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,351 +0200[ - Read line #64: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,352 +0200[ - Read line #65: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\src\test\resources
+[DEBUG] [2020-11-10 13:52:56,352 +0200[ - Read line #66: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,353 +0200[ - Read line #67: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,354 +0200[ - Read line #68: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,354 +0200[ - Read line #69: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,355 +0200[ - Read line #70: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\test-classes
+[DEBUG] [2020-11-10 13:52:56,355 +0200[ - Read line #71: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,356 +0200[ - Read line #72: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,360 +0200[ - Read line #73: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:52:56,362 +0200[ - Read line #74: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,362 +0200[ - Read line #75: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,363 +0200[ - Read line #76: [INFO] Building jar: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,364 +0200[ - Read line #77: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,365 +0200[ - Read line #78: [INFO] --- maven-install-plugin:2.4:install (default-install) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:52:56,365 +0200[ - Read line #79: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\mapper\infra-mapper\1.0-SNAPSHOT\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,366 +0200[ - Read line #80: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\mapper\infra-mapper\1.0-SNAPSHOT\infra-mapper-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:52:56,367 +0200[ - Read line #81: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,370 +0200[ - Read line #82: [INFO] -----------< org.elementalsource.register:register-service >------------
+[DEBUG] [2020-11-10 13:52:56,371 +0200[ - Read line #83: [INFO] Building register-service 1.0-SNAPSHOT                             [3/6]
+[DEBUG] [2020-11-10 13:52:56,372 +0200[ - Read line #84: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:52:56,375 +0200[ - Read line #85: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,379 +0200[ - Read line #86: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,386 +0200[ - Read line #87: [INFO] Deleting C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target
+[DEBUG] [2020-11-10 13:52:56,393 +0200[ - Read line #88: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,397 +0200[ - Read line #89: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,400 +0200[ - Read line #90: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,401 +0200[ - Read line #91: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\src\main\resources
+[DEBUG] [2020-11-10 13:52:56,403 +0200[ - Read line #92: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,405 +0200[ - Read line #93: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,406 +0200[ - Read line #94: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,410 +0200[ - Read line #95: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,412 +0200[ - Read line #96: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\classes
+[DEBUG] [2020-11-10 13:52:56,413 +0200[ - Read line #97: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,416 +0200[ - Read line #98: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,417 +0200[ - Read line #99: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,420 +0200[ - Read line #100: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\src\test\resources
+[DEBUG] [2020-11-10 13:52:56,420 +0200[ - Read line #101: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,421 +0200[ - Read line #102: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,422 +0200[ - Read line #103: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,423 +0200[ - Read line #104: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,423 +0200[ - Read line #105: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\test-classes
+[DEBUG] [2020-11-10 13:52:56,424 +0200[ - Read line #106: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,425 +0200[ - Read line #107: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,428 +0200[ - Read line #108: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:52:56,429 +0200[ - Read line #109: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,431 +0200[ - Read line #110: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,431 +0200[ - Read line #111: [INFO] Building jar: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,432 +0200[ - Read line #112: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,432 +0200[ - Read line #113: [INFO] --- maven-install-plugin:2.4:install (default-install) @ register-service ---
+[DEBUG] [2020-11-10 13:52:56,433 +0200[ - Read line #114: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\register-service-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\register\register-service\1.0-SNAPSHOT\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,436 +0200[ - Read line #115: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\register\register-service\1.0-SNAPSHOT\register-service-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:52:56,439 +0200[ - Read line #116: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,441 +0200[ - Read line #117: [INFO] -----------< org.elementalsource.business:business-service >------------
+[DEBUG] [2020-11-10 13:52:56,442 +0200[ - Read line #118: [INFO] Building business-service 1.0-SNAPSHOT                             [4/6]
+[DEBUG] [2020-11-10 13:52:56,443 +0200[ - Read line #119: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:52:56,444 +0200[ - Read line #120: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,445 +0200[ - Read line #121: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,446 +0200[ - Read line #122: [INFO] Deleting C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target
+[DEBUG] [2020-11-10 13:52:56,447 +0200[ - Read line #123: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,450 +0200[ - Read line #124: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,450 +0200[ - Read line #125: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,451 +0200[ - Read line #126: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\src\main\resources
+[DEBUG] [2020-11-10 13:52:56,452 +0200[ - Read line #127: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,452 +0200[ - Read line #128: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,453 +0200[ - Read line #129: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,453 +0200[ - Read line #130: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,454 +0200[ - Read line #131: [INFO] Compiling 2 source files to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\classes
+[DEBUG] [2020-11-10 13:52:56,454 +0200[ - Read line #132: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,455 +0200[ - Read line #133: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,455 +0200[ - Read line #134: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,456 +0200[ - Read line #135: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\src\test\resources
+[DEBUG] [2020-11-10 13:52:56,456 +0200[ - Read line #136: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,457 +0200[ - Read line #137: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,458 +0200[ - Read line #138: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,464 +0200[ - Read line #139: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,465 +0200[ - Read line #140: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\test-classes
+[DEBUG] [2020-11-10 13:52:56,467 +0200[ - Read line #141: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,468 +0200[ - Read line #142: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,469 +0200[ - Read line #143: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:52:56,470 +0200[ - Read line #144: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,471 +0200[ - Read line #145: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,474 +0200[ - Read line #146: [INFO] Building jar: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,478 +0200[ - Read line #147: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,479 +0200[ - Read line #148: [INFO] --- maven-install-plugin:2.4:install (default-install) @ business-service ---
+[DEBUG] [2020-11-10 13:52:56,480 +0200[ - Read line #149: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\business-service-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\business\business-service\1.0-SNAPSHOT\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,482 +0200[ - Read line #150: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\business\business-service\1.0-SNAPSHOT\business-service-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:52:56,485 +0200[ - Read line #151: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,486 +0200[ - Read line #152: [INFO] -----------< org.elementalsource.frontend:frontend-service >------------
+[DEBUG] [2020-11-10 13:52:56,489 +0200[ - Read line #153: [INFO] Building frontend-service 1.0-SNAPSHOT                             [5/6]
+[DEBUG] [2020-11-10 13:52:56,490 +0200[ - Read line #154: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:52:56,490 +0200[ - Read line #155: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,491 +0200[ - Read line #156: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,492 +0200[ - Read line #157: [INFO] Deleting C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target
+[DEBUG] [2020-11-10 13:52:56,493 +0200[ - Read line #158: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,497 +0200[ - Read line #159: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,497 +0200[ - Read line #160: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,499 +0200[ - Read line #161: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\src\main\resources
+[DEBUG] [2020-11-10 13:52:56,500 +0200[ - Read line #162: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,501 +0200[ - Read line #163: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,502 +0200[ - Read line #164: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,502 +0200[ - Read line #165: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,503 +0200[ - Read line #166: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\classes
+[DEBUG] [2020-11-10 13:52:56,504 +0200[ - Read line #167: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,505 +0200[ - Read line #168: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,510 +0200[ - Read line #169: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,511 +0200[ - Read line #170: [INFO] skip non existing resourceDirectory C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\src\test\resources
+[DEBUG] [2020-11-10 13:52:56,512 +0200[ - Read line #171: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,514 +0200[ - Read line #172: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,515 +0200[ - Read line #173: [INFO] Changes detected - recompiling the module!
+[DEBUG] [2020-11-10 13:52:56,516 +0200[ - Read line #174: [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:52:56,521 +0200[ - Read line #175: [INFO] Compiling 1 source file to C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\test-classes
+[DEBUG] [2020-11-10 13:52:56,522 +0200[ - Read line #176: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,525 +0200[ - Read line #177: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,527 +0200[ - Read line #178: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:52:56,528 +0200[ - Read line #179: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,528 +0200[ - Read line #180: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,528 +0200[ - Read line #181: [INFO] Building jar: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,530 +0200[ - Read line #182: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,533 +0200[ - Read line #183: [INFO] --- maven-install-plugin:2.4:install (default-install) @ frontend-service ---
+[DEBUG] [2020-11-10 13:52:56,534 +0200[ - Read line #184: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\frontend\frontend-service\1.0-SNAPSHOT\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:52:56,536 +0200[ - Read line #185: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\frontend\frontend-service\1.0-SNAPSHOT\frontend-service-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:52:56,537 +0200[ - Read line #186: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,537 +0200[ - Read line #187: [INFO] ------------< org.elementalsource:elemental-source-parent >-------------
+[DEBUG] [2020-11-10 13:52:56,538 +0200[ - Read line #188: [INFO] Building elemental-source-parent 1.0-SNAPSHOT                      [6/6]
+[DEBUG] [2020-11-10 13:52:56,539 +0200[ - Read line #189: [INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] [2020-11-10 13:52:56,540 +0200[ - Read line #190: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,541 +0200[ - Read line #191: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ elemental-source-parent ---
+[DEBUG] [2020-11-10 13:52:56,545 +0200[ - Read line #192: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,546 +0200[ - Read line #193: [INFO] --- maven-install-plugin:2.4:install (default-install) @ elemental-source-parent ---
+[DEBUG] [2020-11-10 13:52:56,547 +0200[ - Read line #194: [INFO] Installing C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\elemental-source-parent\1.0-SNAPSHOT\elemental-source-parent-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:52:56,548 +0200[ - Read line #195: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:52:56,549 +0200[ - Read line #196: [INFO] Reactor Summary for elemental-source-parent 1.0-SNAPSHOT:
+[DEBUG] [2020-11-10 13:52:56,550 +0200[ - Read line #197: [INFO] 
+[DEBUG] [2020-11-10 13:52:56,551 +0200[ - Read line #198: [INFO] infra-util ......................................... SUCCESS [  2.386 s]
+[DEBUG] [2020-11-10 13:52:56,552 +0200[ - Read line #199: [INFO] infra-mapper ....................................... SUCCESS [  0.879 s]
+[DEBUG] [2020-11-10 13:52:56,552 +0200[ - Read line #200: [INFO] register-service ................................... SUCCESS [  0.632 s]
+[DEBUG] [2020-11-10 13:52:56,553 +0200[ - Read line #201: [INFO] business-service ................................... SUCCESS [  1.739 s]
+[DEBUG] [2020-11-10 13:52:56,553 +0200[ - Read line #202: [INFO] frontend-service ................................... SUCCESS [  0.572 s]
+[DEBUG] [2020-11-10 13:52:56,554 +0200[ - Read line #203: [INFO] elemental-source-parent ............................ SUCCESS [  0.032 s]
+[DEBUG] [2020-11-10 13:52:56,557 +0200[ - Read line #204: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:52:56,558 +0200[ - Read line #205: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:52:56,559 +0200[ - Read line #206: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:52:56,560 +0200[ - Read line #207: [INFO] Total time:  6.425 s
+[DEBUG] [2020-11-10 13:52:56,562 +0200[ - Read line #208: [INFO] Finished at: 2020-11-10T13:52:56+02:00
+[DEBUG] [2020-11-10 13:52:56,563 +0200[ - Read line #209: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:52:56,565 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master'
+[DEBUG] [2020-11-10 13:53:00,522 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-10 13:53:00,522 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:00,527 +0200[ - Read line #2: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:00,528 +0200[ - Read line #3: [INFO] Reactor Build Order:
+[DEBUG] [2020-11-10 13:53:00,529 +0200[ - Read line #4: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,529 +0200[ - Read line #5: [INFO] infra-util                                                         [jar]
+[DEBUG] [2020-11-10 13:53:00,530 +0200[ - Read line #6: [INFO] infra-mapper                                                       [jar]
+[DEBUG] [2020-11-10 13:53:00,530 +0200[ - Read line #7: [INFO] register-service                                                   [jar]
+[DEBUG] [2020-11-10 13:53:00,531 +0200[ - Read line #8: [INFO] business-service                                                   [jar]
+[DEBUG] [2020-11-10 13:53:00,531 +0200[ - Read line #9: [INFO] frontend-service                                                   [jar]
+[DEBUG] [2020-11-10 13:53:00,532 +0200[ - Read line #10: [INFO] elemental-source-parent                                            [pom]
+[DEBUG] [2020-11-10 13:53:00,534 +0200[ - Read line #11: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,535 +0200[ - Read line #12: [INFO] -------------< org.elementalsource.infra.util:infra-util >--------------
+[DEBUG] [2020-11-10 13:53:00,535 +0200[ - Read line #13: [INFO] Building infra-util 1.0-SNAPSHOT                                   [1/6]
+[DEBUG] [2020-11-10 13:53:00,536 +0200[ - Read line #14: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:00,536 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,537 +0200[ - Read line #16: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:00,538 +0200[ - Read line #17: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:00,538 +0200[ - Read line #18: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,538 +0200[ - Read line #19: [INFO] -----------< org.elementalsource.infra.mapper:infra-mapper >------------
+[DEBUG] [2020-11-10 13:53:00,539 +0200[ - Read line #20: [INFO] Building infra-mapper 1.0-SNAPSHOT                                 [2/6]
+[DEBUG] [2020-11-10 13:53:00,539 +0200[ - Read line #21: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:00,540 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,540 +0200[ - Read line #23: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:00,541 +0200[ - Read line #24: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:00,542 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,545 +0200[ - Read line #26: [INFO] -----------< org.elementalsource.frontend:frontend-service >------------
+[DEBUG] [2020-11-10 13:53:00,545 +0200[ - Read line #27: [INFO] Building frontend-service 1.0-SNAPSHOT                             [3/6]
+[DEBUG] [2020-11-10 13:53:00,546 +0200[ - Read line #28: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:00,547 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,547 +0200[ - Read line #30: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:00,548 +0200[ - Read line #31: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:00,548 +0200[ - Read line #32: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,548 +0200[ - Read line #33: [INFO] ------------< org.elementalsource:elemental-source-parent >-------------
+[DEBUG] [2020-11-10 13:53:00,549 +0200[ - Read line #34: [INFO] Building elemental-source-parent 1.0-SNAPSHOT                      [4/6]
+[DEBUG] [2020-11-10 13:53:00,550 +0200[ - Read line #35: [INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] [2020-11-10 13:53:00,550 +0200[ - Read line #36: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,550 +0200[ - Read line #37: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ elemental-source-parent ---
+[DEBUG] [2020-11-10 13:53:00,551 +0200[ - Read line #38: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:00,551 +0200[ - Read line #39: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,552 +0200[ - Read line #40: [INFO] -----------< org.elementalsource.register:register-service >------------
+[DEBUG] [2020-11-10 13:53:00,552 +0200[ - Read line #41: [INFO] Building register-service 1.0-SNAPSHOT                             [5/6]
+[DEBUG] [2020-11-10 13:53:00,553 +0200[ - Read line #42: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:00,556 +0200[ - Read line #43: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,557 +0200[ - Read line #44: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ register-service ---
+[DEBUG] [2020-11-10 13:53:00,558 +0200[ - Read line #45: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:00,558 +0200[ - Read line #46: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,559 +0200[ - Read line #47: [INFO] -----------< org.elementalsource.business:business-service >------------
+[DEBUG] [2020-11-10 13:53:00,559 +0200[ - Read line #48: [INFO] Building business-service 1.0-SNAPSHOT                             [6/6]
+[DEBUG] [2020-11-10 13:53:00,560 +0200[ - Read line #49: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:00,560 +0200[ - Read line #50: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,561 +0200[ - Read line #51: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ business-service ---
+[DEBUG] [2020-11-10 13:53:00,561 +0200[ - Read line #52: [INFO] Wrote dependency tree to: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:00,562 +0200[ - Read line #53: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:00,562 +0200[ - Read line #54: [INFO] Reactor Summary for elemental-source-parent 1.0-SNAPSHOT:
+[DEBUG] [2020-11-10 13:53:00,562 +0200[ - Read line #55: [INFO] 
+[DEBUG] [2020-11-10 13:53:00,563 +0200[ - Read line #56: [INFO] infra-util ......................................... SUCCESS [  1.245 s]
+[DEBUG] [2020-11-10 13:53:00,563 +0200[ - Read line #57: [INFO] infra-mapper ....................................... SUCCESS [  0.145 s]
+[DEBUG] [2020-11-10 13:53:00,564 +0200[ - Read line #58: [INFO] register-service ................................... SUCCESS [  0.091 s]
+[DEBUG] [2020-11-10 13:53:00,567 +0200[ - Read line #59: [INFO] business-service ................................... SUCCESS [  0.322 s]
+[DEBUG] [2020-11-10 13:53:00,568 +0200[ - Read line #60: [INFO] frontend-service ................................... SUCCESS [  0.095 s]
+[DEBUG] [2020-11-10 13:53:00,569 +0200[ - Read line #61: [INFO] elemental-source-parent ............................ SUCCESS [  0.011 s]
+[DEBUG] [2020-11-10 13:53:00,569 +0200[ - Read line #62: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:00,570 +0200[ - Read line #63: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:00,570 +0200[ - Read line #64: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:00,571 +0200[ - Read line #65: [INFO] Total time:  2.385 s
+[DEBUG] [2020-11-10 13:53:00,571 +0200[ - Read line #66: [INFO] Finished at: 2020-11-10T13:53:00+02:00
+[DEBUG] [2020-11-10 13:53:00,571 +0200[ - Read line #67: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:00,575 +0200[ - Start parsing pom files
+[INFO] [2020-11-10 13:53:00,577 +0200[ - Reading maven dependencies tree output file 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:00,579 +0200[ - org.elementalsource.infra.util:infra-util:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:00,579 +0200[ - \- junit:junit:jar:4.12:test
+[INFO] [2020-11-10 13:53:00,579 +0200[ -    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] [2020-11-10 13:53:00,590 +0200[ - Reading maven dependencies tree output file 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:00,591 +0200[ - org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:00,594 +0200[ - +- junit:junit:jar:4.12:compile
+[INFO] [2020-11-10 13:53:00,595 +0200[ - |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] [2020-11-10 13:53:00,599 +0200[ - +- com.google.guava:guava:jar:28.2-jre:compile
+[INFO] [2020-11-10 13:53:00,599 +0200[ - |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] [2020-11-10 13:53:00,600 +0200[ - |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] [2020-11-10 13:53:00,600 +0200[ - |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] [2020-11-10 13:53:00,601 +0200[ - |  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+[INFO] [2020-11-10 13:53:00,601 +0200[ - |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] [2020-11-10 13:53:00,602 +0200[ - |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] [2020-11-10 13:53:00,603 +0200[ - +- org.jsoup:jsoup:jar:1.10.3:compile
+[INFO] [2020-11-10 13:53:00,603 +0200[ - +- org.scala-lang:scala-library:jar:2.13.1:compile
+[INFO] [2020-11-10 13:53:00,603 +0200[ - \- org.slf4j:jcl-over-slf4j:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:00,604 +0200[ -    \- org.slf4j:slf4j-api:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:00,607 +0200[ - Reading maven dependencies tree output file 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:00,610 +0200[ - org.elementalsource.frontend:frontend-service:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:00,610 +0200[ - +- junit:junit:jar:4.12:test
+[INFO] [2020-11-10 13:53:00,610 +0200[ - |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] [2020-11-10 13:53:00,611 +0200[ - +- io.takari:incrementalbuild:jar:0.4.2:compile
+[INFO] [2020-11-10 13:53:00,611 +0200[ - |  \- org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO] [2020-11-10 13:53:00,612 +0200[ - +- com.h2database:h2:jar:1.4.197:compile
+[INFO] [2020-11-10 13:53:00,612 +0200[ - \- org.apache.pdfbox:pdfbox:jar:2.0.12:compile
+[INFO] [2020-11-10 13:53:00,613 +0200[ -    +- org.apache.pdfbox:fontbox:jar:2.0.12:compile
+[INFO] [2020-11-10 13:53:00,613 +0200[ -    \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] [2020-11-10 13:53:00,615 +0200[ - Reading maven dependencies tree output file 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:00,617 +0200[ - org.elementalsource:elemental-source-parent:pom:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:00,618 +0200[ - Reading maven dependencies tree output file 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:00,620 +0200[ - org.elementalsource.register:register-service:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:00,621 +0200[ - +- org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT:compile
+[INFO] [2020-11-10 13:53:00,621 +0200[ - |  +- com.google.guava:guava:jar:28.2-jre:compile
+[INFO] [2020-11-10 13:53:00,622 +0200[ - |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] [2020-11-10 13:53:00,622 +0200[ - |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] [2020-11-10 13:53:00,623 +0200[ - |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] [2020-11-10 13:53:00,623 +0200[ - |  |  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+[INFO] [2020-11-10 13:53:00,624 +0200[ - |  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] [2020-11-10 13:53:00,624 +0200[ - |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] [2020-11-10 13:53:00,625 +0200[ - |  +- org.jsoup:jsoup:jar:1.10.3:compile
+[INFO] [2020-11-10 13:53:00,627 +0200[ - |  +- org.scala-lang:scala-library:jar:2.13.1:compile
+[INFO] [2020-11-10 13:53:00,628 +0200[ - |  \- org.slf4j:jcl-over-slf4j:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:00,629 +0200[ - |     \- org.slf4j:slf4j-api:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:00,629 +0200[ - \- junit:junit:jar:4.12:test
+[INFO] [2020-11-10 13:53:00,629 +0200[ -    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] [2020-11-10 13:53:00,631 +0200[ - Reading maven dependencies tree output file 'C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:00,632 +0200[ - org.elementalsource.business:business-service:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:00,632 +0200[ - +- org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT:compile
+[INFO] [2020-11-10 13:53:00,632 +0200[ - |  +- com.google.guava:guava:jar:28.2-jre:compile
+[INFO] [2020-11-10 13:53:00,633 +0200[ - |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] [2020-11-10 13:53:00,633 +0200[ - |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] [2020-11-10 13:53:00,634 +0200[ - |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] [2020-11-10 13:53:00,634 +0200[ - |  |  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+[INFO] [2020-11-10 13:53:00,635 +0200[ - |  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] [2020-11-10 13:53:00,637 +0200[ - |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] [2020-11-10 13:53:00,638 +0200[ - |  +- org.jsoup:jsoup:jar:1.10.3:compile
+[INFO] [2020-11-10 13:53:00,639 +0200[ - |  +- org.scala-lang:scala-library:jar:2.13.1:compile
+[INFO] [2020-11-10 13:53:00,639 +0200[ - |  \- org.slf4j:jcl-over-slf4j:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:00,640 +0200[ - |     \- org.slf4j:slf4j-api:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:00,640 +0200[ - +- junit:junit:jar:4.12:compile
+[INFO] [2020-11-10 13:53:00,641 +0200[ - |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] [2020-11-10 13:53:00,641 +0200[ - +- org.hibernate:hibernate-entitymanager:jar:5.4.8.Final:compile
+[INFO] [2020-11-10 13:53:00,641 +0200[ - |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] [2020-11-10 13:53:00,642 +0200[ - |  +- org.hibernate:hibernate-core:jar:5.4.8.Final:compile
+[INFO] [2020-11-10 13:53:00,642 +0200[ - |  |  +- org.javassist:javassist:jar:3.24.0-GA:compile
+[INFO] [2020-11-10 13:53:00,643 +0200[ - |  |  +- antlr:antlr:jar:2.7.7:compile
+[INFO] [2020-11-10 13:53:00,644 +0200[ - |  |  +- org.jboss:jandex:jar:2.0.5.Final:compile
+[INFO] [2020-11-10 13:53:00,644 +0200[ - |  |  +- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] [2020-11-10 13:53:00,644 +0200[ - |  |  +- javax.activation:javax.activation-api:jar:1.2.0:compile
+[INFO] [2020-11-10 13:53:00,645 +0200[ - |  |  +- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[INFO] [2020-11-10 13:53:00,647 +0200[ - |  |  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile
+[INFO] [2020-11-10 13:53:00,648 +0200[ - |  |     +- org.glassfish.jaxb:txw2:jar:2.3.1:compile
+[INFO] [2020-11-10 13:53:00,649 +0200[ - |  |     +- com.sun.istack:istack-commons-runtime:jar:3.0.7:compile
+[INFO] [2020-11-10 13:53:00,649 +0200[ - |  |     +- org.jvnet.staxex:stax-ex:jar:1.8:compile
+[INFO] [2020-11-10 13:53:00,650 +0200[ - |  |     \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:compile
+[INFO] [2020-11-10 13:53:00,650 +0200[ - |  +- org.dom4j:dom4j:jar:2.1.1:compile
+[INFO] [2020-11-10 13:53:00,651 +0200[ - |  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+[INFO] [2020-11-10 13:53:00,651 +0200[ - |  +- javax.persistence:javax.persistence-api:jar:2.2:compile
+[INFO] [2020-11-10 13:53:00,652 +0200[ - |  +- net.bytebuddy:byte-buddy:jar:1.10.2:compile
+[INFO] [2020-11-10 13:53:00,652 +0200[ - |  \- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile
+[INFO] [2020-11-10 13:53:00,653 +0200[ - +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] [2020-11-10 13:53:00,653 +0200[ - \- com.squareup.okhttp3:okhttp:jar:4.5.0:compile
+[INFO] [2020-11-10 13:53:00,654 +0200[ -    +- com.squareup.okio:okio:jar:2.5.0:compile
+[INFO] [2020-11-10 13:53:00,654 +0200[ -    |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.70:compile
+[INFO] [2020-11-10 13:53:00,655 +0200[ -    \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.70:compile
+[INFO] [2020-11-10 13:53:00,655 +0200[ -       \- org.jetbrains:annotations:jar:13.0:compile
+[INFO] [2020-11-10 13:53:00,658 +0200[ - End parsing pom files , found : infra-util,infra-mapper,frontend-service,elemental-source-parent,register-service,business-service
+[INFO] [2020-11-10 13:53:00,659 +0200[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2020-11-10 13:53:00,666 +0200[ - Project/Module coordinates: Coordinates@56b11b40[groupId= org.elementalsource.infra.util,artifactId= infra-util,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:00,666 +0200[ - Total project direct dependencies found : 0
+[DEBUG] [2020-11-10 13:53:00,667 +0200[ - ProjectInfo direct dependency added : 0
+[DEBUG] [2020-11-10 13:53:00,668 +0200[ - converting node to dependency :junit
+[DEBUG] [2020-11-10 13:53:00,669 +0200[ - converting node to dependency :hamcrest-core
+[DEBUG] [2020-11-10 13:53:00,672 +0200[ - converting node to dependency :guava
+[DEBUG] [2020-11-10 13:53:00,673 +0200[ - converting node to dependency :failureaccess
+[DEBUG] [2020-11-10 13:53:00,673 +0200[ - converting node to dependency :listenablefuture
+[DEBUG] [2020-11-10 13:53:00,674 +0200[ - converting node to dependency :jsr305
+[DEBUG] [2020-11-10 13:53:00,675 +0200[ - converting node to dependency :checker-qual
+[DEBUG] [2020-11-10 13:53:00,675 +0200[ - converting node to dependency :error_prone_annotations
+[DEBUG] [2020-11-10 13:53:00,676 +0200[ - converting node to dependency :j2objc-annotations
+[DEBUG] [2020-11-10 13:53:00,676 +0200[ - converting node to dependency :jsoup
+[DEBUG] [2020-11-10 13:53:00,677 +0200[ - converting node to dependency :scala-library
+[DEBUG] [2020-11-10 13:53:00,679 +0200[ - converting node to dependency :jcl-over-slf4j
+[DEBUG] [2020-11-10 13:53:00,679 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:00,744 +0200[ - Project/Module coordinates: Coordinates@30ea4358[groupId= org.elementalsource.infra.mapper,artifactId= infra-mapper,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:00,745 +0200[ - Total project direct dependencies found : 5
+[DEBUG] [2020-11-10 13:53:00,746 +0200[ - ProjectInfo direct dependency added : 5
+[DEBUG] [2020-11-10 13:53:00,749 +0200[ - converting node to dependency :incrementalbuild
+[DEBUG] [2020-11-10 13:53:00,750 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:00,750 +0200[ - converting node to dependency :h2
+[DEBUG] [2020-11-10 13:53:00,752 +0200[ - converting node to dependency :pdfbox
+[DEBUG] [2020-11-10 13:53:00,753 +0200[ - converting node to dependency :fontbox
+[DEBUG] [2020-11-10 13:53:00,755 +0200[ - converting node to dependency :commons-logging
+[DEBUG] [2020-11-10 13:53:00,776 +0200[ - Project/Module coordinates: Coordinates@73e16aff[groupId= org.elementalsource.frontend,artifactId= frontend-service,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:00,776 +0200[ - Total project direct dependencies found : 3
+[DEBUG] [2020-11-10 13:53:00,780 +0200[ - ProjectInfo direct dependency added : 3
+[DEBUG] [2020-11-10 13:53:00,782 +0200[ - converting node to dependency :infra-mapper
+[DEBUG] [2020-11-10 13:53:00,785 +0200[ - converting node to dependency :guava
+[DEBUG] [2020-11-10 13:53:00,786 +0200[ - converting node to dependency :failureaccess
+[DEBUG] [2020-11-10 13:53:00,787 +0200[ - converting node to dependency :listenablefuture
+[DEBUG] [2020-11-10 13:53:00,788 +0200[ - converting node to dependency :jsr305
+[DEBUG] [2020-11-10 13:53:00,790 +0200[ - converting node to dependency :checker-qual
+[DEBUG] [2020-11-10 13:53:00,791 +0200[ - converting node to dependency :error_prone_annotations
+[DEBUG] [2020-11-10 13:53:00,794 +0200[ - converting node to dependency :j2objc-annotations
+[DEBUG] [2020-11-10 13:53:00,794 +0200[ - converting node to dependency :jsoup
+[DEBUG] [2020-11-10 13:53:00,795 +0200[ - converting node to dependency :scala-library
+[DEBUG] [2020-11-10 13:53:00,795 +0200[ - converting node to dependency :jcl-over-slf4j
+[DEBUG] [2020-11-10 13:53:00,797 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:00,801 +0200[ - Project/Module coordinates: Coordinates@32b5aca7[groupId= org.elementalsource.register,artifactId= register-service,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:00,802 +0200[ - Total project direct dependencies found : 1
+[DEBUG] [2020-11-10 13:53:00,802 +0200[ - ProjectInfo direct dependency added : 1
+[DEBUG] [2020-11-10 13:53:00,806 +0200[ - converting node to dependency :infra-mapper
+[DEBUG] [2020-11-10 13:53:00,806 +0200[ - converting node to dependency :guava
+[DEBUG] [2020-11-10 13:53:00,807 +0200[ - converting node to dependency :failureaccess
+[DEBUG] [2020-11-10 13:53:00,807 +0200[ - converting node to dependency :listenablefuture
+[DEBUG] [2020-11-10 13:53:00,808 +0200[ - converting node to dependency :jsr305
+[DEBUG] [2020-11-10 13:53:00,810 +0200[ - converting node to dependency :checker-qual
+[DEBUG] [2020-11-10 13:53:00,811 +0200[ - converting node to dependency :error_prone_annotations
+[DEBUG] [2020-11-10 13:53:00,812 +0200[ - converting node to dependency :j2objc-annotations
+[DEBUG] [2020-11-10 13:53:00,815 +0200[ - converting node to dependency :jsoup
+[DEBUG] [2020-11-10 13:53:00,815 +0200[ - converting node to dependency :scala-library
+[DEBUG] [2020-11-10 13:53:00,816 +0200[ - converting node to dependency :jcl-over-slf4j
+[DEBUG] [2020-11-10 13:53:00,816 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:00,817 +0200[ - converting node to dependency :junit
+[DEBUG] [2020-11-10 13:53:00,817 +0200[ - converting node to dependency :hamcrest-core
+[DEBUG] [2020-11-10 13:53:00,818 +0200[ - converting node to dependency :hibernate-entitymanager
+[DEBUG] [2020-11-10 13:53:00,818 +0200[ - converting node to dependency :jboss-logging
+[DEBUG] [2020-11-10 13:53:00,819 +0200[ - converting node to dependency :hibernate-core
+[DEBUG] [2020-11-10 13:53:00,819 +0200[ - converting node to dependency :javassist
+[DEBUG] [2020-11-10 13:53:00,820 +0200[ - converting node to dependency :antlr
+[DEBUG] [2020-11-10 13:53:00,824 +0200[ - converting node to dependency :jandex
+[DEBUG] [2020-11-10 13:53:00,826 +0200[ - converting node to dependency :classmate
+[DEBUG] [2020-11-10 13:53:00,827 +0200[ - converting node to dependency :javax.activation-api
+[DEBUG] [2020-11-10 13:53:00,827 +0200[ - converting node to dependency :jaxb-api
+[DEBUG] [2020-11-10 13:53:00,827 +0200[ - converting node to dependency :jaxb-runtime
+[DEBUG] [2020-11-10 13:53:00,828 +0200[ - converting node to dependency :txw2
+[DEBUG] [2020-11-10 13:53:00,828 +0200[ - converting node to dependency :istack-commons-runtime
+[DEBUG] [2020-11-10 13:53:00,829 +0200[ - converting node to dependency :stax-ex
+[DEBUG] [2020-11-10 13:53:00,829 +0200[ - converting node to dependency :FastInfoset
+[DEBUG] [2020-11-10 13:53:00,830 +0200[ - converting node to dependency :dom4j
+[DEBUG] [2020-11-10 13:53:00,832 +0200[ - converting node to dependency :hibernate-commons-annotations
+[DEBUG] [2020-11-10 13:53:00,833 +0200[ - converting node to dependency :javax.persistence-api
+[DEBUG] [2020-11-10 13:53:00,836 +0200[ - converting node to dependency :byte-buddy
+[DEBUG] [2020-11-10 13:53:00,837 +0200[ - converting node to dependency :jboss-transaction-api_1.2_spec
+[DEBUG] [2020-11-10 13:53:00,837 +0200[ - converting node to dependency :aopalliance
+[DEBUG] [2020-11-10 13:53:00,837 +0200[ - converting node to dependency :okhttp
+[DEBUG] [2020-11-10 13:53:00,838 +0200[ - converting node to dependency :okio
+[DEBUG] [2020-11-10 13:53:00,838 +0200[ - converting node to dependency :kotlin-stdlib-common
+[DEBUG] [2020-11-10 13:53:00,839 +0200[ - converting node to dependency :kotlin-stdlib
+[DEBUG] [2020-11-10 13:53:00,839 +0200[ - converting node to dependency :annotations
+[DEBUG] [2020-11-10 13:53:00,901 +0200[ - Project/Module coordinates: Coordinates@db84c82f[groupId= org.elementalsource.business,artifactId= business-service,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:00,902 +0200[ - Total project direct dependencies found : 5
+[DEBUG] [2020-11-10 13:53:00,905 +0200[ - ProjectInfo direct dependency added : 5
+[INFO] [2020-11-10 13:53:00,933 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper
+[DEBUG] [2020-11-10 13:53:00,933 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper
+[DEBUG] [2020-11-10 13:53:00,935 +0200[ - Identified m2 path under : C:\Users\GiladAronade\.m2\repository.
+[DEBUG] [2020-11-10 13:53:00,937 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn clean install -DskipTests' in 'C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper'
+[DEBUG] [2020-11-10 13:53:04,516 +0200[ - Command result output lines for 'cmd /c mvn clean install -DskipTests':
+[DEBUG] [2020-11-10 13:53:04,517 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:04,518 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,522 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.infra.mapper:infra-mapper >------------
+[DEBUG] [2020-11-10 13:53:04,523 +0200[ - Read line #4: [INFO] Building infra-mapper 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:04,523 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:04,524 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,524 +0200[ - Read line #7: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,525 +0200[ - Read line #8: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,525 +0200[ - Read line #9: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,526 +0200[ - Read line #10: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:04,526 +0200[ - Read line #11: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\src\main\resources
+[DEBUG] [2020-11-10 13:53:04,527 +0200[ - Read line #12: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,530 +0200[ - Read line #13: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,530 +0200[ - Read line #14: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:04,531 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,532 +0200[ - Read line #16: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,532 +0200[ - Read line #17: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:04,533 +0200[ - Read line #18: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\src\test\resources
+[DEBUG] [2020-11-10 13:53:04,533 +0200[ - Read line #19: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,534 +0200[ - Read line #20: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,534 +0200[ - Read line #21: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:04,535 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,535 +0200[ - Read line #23: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,536 +0200[ - Read line #24: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:53:04,536 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,537 +0200[ - Read line #26: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,537 +0200[ - Read line #27: [WARNING] JAR will be empty - no content was marked for inclusion!
+[DEBUG] [2020-11-10 13:53:04,538 +0200[ - Read line #28: [INFO] Building jar: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:04,542 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:53:04,543 +0200[ - Read line #30: [INFO] --- maven-install-plugin:2.4:install (default-install) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:04,544 +0200[ - Read line #31: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\mapper\infra-mapper\1.0-SNAPSHOT\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:04,544 +0200[ - Read line #32: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\mapper\infra-mapper\1.0-SNAPSHOT\infra-mapper-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:53:04,545 +0200[ - Read line #33: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:04,546 +0200[ - Read line #34: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:04,546 +0200[ - Read line #35: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:04,547 +0200[ - Read line #36: [INFO] Total time:  1.870 s
+[DEBUG] [2020-11-10 13:53:04,548 +0200[ - Read line #37: [INFO] Finished at: 2020-11-10T13:53:04+02:00
+[DEBUG] [2020-11-10 13:53:04,548 +0200[ - Read line #38: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:04,550 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper'
+[DEBUG] [2020-11-10 13:53:08,223 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-10 13:53:08,224 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:08,225 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:08,229 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.infra.mapper:infra-mapper >------------
+[DEBUG] [2020-11-10 13:53:08,229 +0200[ - Read line #4: [INFO] Building infra-mapper 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:08,230 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:08,230 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:08,231 +0200[ - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ infra-mapper ---
+[DEBUG] [2020-11-10 13:53:08,231 +0200[ - Read line #8: [INFO] Wrote dependency tree to: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:08,232 +0200[ - Read line #9: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:08,232 +0200[ - Read line #10: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:08,233 +0200[ - Read line #11: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:08,235 +0200[ - Read line #12: [INFO] Total time:  1.997 s
+[DEBUG] [2020-11-10 13:53:08,239 +0200[ - Read line #13: [INFO] Finished at: 2020-11-10T13:53:08+02:00
+[DEBUG] [2020-11-10 13:53:08,239 +0200[ - Read line #14: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:08,241 +0200[ - Start parsing pom files
+[INFO] [2020-11-10 13:53:08,242 +0200[ - Reading maven dependencies tree output file 'C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:08,243 +0200[ - org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:08,243 +0200[ - +- junit:junit:jar:4.12:compile
+[INFO] [2020-11-10 13:53:08,243 +0200[ - |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] [2020-11-10 13:53:08,244 +0200[ - +- com.google.guava:guava:jar:28.2-jre:compile
+[INFO] [2020-11-10 13:53:08,244 +0200[ - |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] [2020-11-10 13:53:08,245 +0200[ - |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] [2020-11-10 13:53:08,245 +0200[ - |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] [2020-11-10 13:53:08,246 +0200[ - |  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+[INFO] [2020-11-10 13:53:08,249 +0200[ - |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] [2020-11-10 13:53:08,250 +0200[ - |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] [2020-11-10 13:53:08,250 +0200[ - +- org.jsoup:jsoup:jar:1.10.3:compile
+[INFO] [2020-11-10 13:53:08,250 +0200[ - +- org.scala-lang:scala-library:jar:2.13.1:compile
+[INFO] [2020-11-10 13:53:08,251 +0200[ - \- org.slf4j:jcl-over-slf4j:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:08,251 +0200[ -    \- org.slf4j:slf4j-api:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:08,253 +0200[ - End parsing pom files , found : infra-mapper
+[INFO] [2020-11-10 13:53:08,253 +0200[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2020-11-10 13:53:08,254 +0200[ - converting node to dependency :junit
+[DEBUG] [2020-11-10 13:53:08,254 +0200[ - converting node to dependency :hamcrest-core
+[DEBUG] [2020-11-10 13:53:08,255 +0200[ - converting node to dependency :guava
+[DEBUG] [2020-11-10 13:53:08,255 +0200[ - converting node to dependency :failureaccess
+[DEBUG] [2020-11-10 13:53:08,256 +0200[ - converting node to dependency :listenablefuture
+[DEBUG] [2020-11-10 13:53:08,256 +0200[ - converting node to dependency :jsr305
+[DEBUG] [2020-11-10 13:53:08,257 +0200[ - converting node to dependency :checker-qual
+[DEBUG] [2020-11-10 13:53:08,259 +0200[ - converting node to dependency :error_prone_annotations
+[DEBUG] [2020-11-10 13:53:08,259 +0200[ - converting node to dependency :j2objc-annotations
+[DEBUG] [2020-11-10 13:53:08,261 +0200[ - converting node to dependency :jsoup
+[DEBUG] [2020-11-10 13:53:08,261 +0200[ - converting node to dependency :scala-library
+[DEBUG] [2020-11-10 13:53:08,262 +0200[ - converting node to dependency :jcl-over-slf4j
+[DEBUG] [2020-11-10 13:53:08,262 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:08,263 +0200[ - Project/Module coordinates: Coordinates@30ea4358[groupId= org.elementalsource.infra.mapper,artifactId= infra-mapper,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:08,263 +0200[ - Total project direct dependencies found : 5
+[DEBUG] [2020-11-10 13:53:08,263 +0200[ - ProjectInfo direct dependency added : 5
+[INFO] [2020-11-10 13:53:08,265 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util
+[DEBUG] [2020-11-10 13:53:08,265 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util
+[DEBUG] [2020-11-10 13:53:08,266 +0200[ - Identified m2 path under : C:\Users\GiladAronade\.m2\repository.
+[DEBUG] [2020-11-10 13:53:08,268 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn clean install -DskipTests' in 'C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util'
+[DEBUG] [2020-11-10 13:53:11,446 +0200[ - Command result output lines for 'cmd /c mvn clean install -DskipTests':
+[DEBUG] [2020-11-10 13:53:11,446 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:11,448 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,452 +0200[ - Read line #3: [INFO] -------------< org.elementalsource.infra.util:infra-util >--------------
+[DEBUG] [2020-11-10 13:53:11,452 +0200[ - Read line #4: [INFO] Building infra-util 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:11,453 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:11,454 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,460 +0200[ - Read line #7: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,460 +0200[ - Read line #8: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,461 +0200[ - Read line #9: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,464 +0200[ - Read line #10: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:11,465 +0200[ - Read line #11: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\src\main\resources
+[DEBUG] [2020-11-10 13:53:11,465 +0200[ - Read line #12: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,466 +0200[ - Read line #13: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,468 +0200[ - Read line #14: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:11,471 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,472 +0200[ - Read line #16: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,472 +0200[ - Read line #17: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:11,473 +0200[ - Read line #18: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\src\test\resources
+[DEBUG] [2020-11-10 13:53:11,473 +0200[ - Read line #19: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,474 +0200[ - Read line #20: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,474 +0200[ - Read line #21: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:11,475 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,475 +0200[ - Read line #23: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,476 +0200[ - Read line #24: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:53:11,479 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,480 +0200[ - Read line #26: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,480 +0200[ - Read line #27: [WARNING] JAR will be empty - no content was marked for inclusion!
+[DEBUG] [2020-11-10 13:53:11,481 +0200[ - Read line #28: [INFO] Building jar: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\target\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:11,481 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:53:11,482 +0200[ - Read line #30: [INFO] --- maven-install-plugin:2.4:install (default-install) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:11,482 +0200[ - Read line #31: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\target\infra-util-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\util\infra-util\1.0-SNAPSHOT\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:11,483 +0200[ - Read line #32: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\infra\util\infra-util\1.0-SNAPSHOT\infra-util-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:53:11,483 +0200[ - Read line #33: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:11,484 +0200[ - Read line #34: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:11,484 +0200[ - Read line #35: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:11,485 +0200[ - Read line #36: [INFO] Total time:  1.650 s
+[DEBUG] [2020-11-10 13:53:11,485 +0200[ - Read line #37: [INFO] Finished at: 2020-11-10T13:53:11+02:00
+[DEBUG] [2020-11-10 13:53:11,486 +0200[ - Read line #38: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:11,488 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util'
+[DEBUG] [2020-11-10 13:53:14,716 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-10 13:53:14,716 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:14,717 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:14,721 +0200[ - Read line #3: [INFO] -------------< org.elementalsource.infra.util:infra-util >--------------
+[DEBUG] [2020-11-10 13:53:14,722 +0200[ - Read line #4: [INFO] Building infra-util 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:14,722 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:14,723 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:14,723 +0200[ - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ infra-util ---
+[DEBUG] [2020-11-10 13:53:14,724 +0200[ - Read line #8: [INFO] Wrote dependency tree to: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:14,724 +0200[ - Read line #9: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:14,725 +0200[ - Read line #10: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:14,725 +0200[ - Read line #11: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:14,725 +0200[ - Read line #12: [INFO] Total time:  1.665 s
+[DEBUG] [2020-11-10 13:53:14,726 +0200[ - Read line #13: [INFO] Finished at: 2020-11-10T13:53:14+02:00
+[DEBUG] [2020-11-10 13:53:14,729 +0200[ - Read line #14: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:14,731 +0200[ - Start parsing pom files
+[INFO] [2020-11-10 13:53:14,731 +0200[ - Reading maven dependencies tree output file 'C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:14,732 +0200[ - org.elementalsource.infra.util:infra-util:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:14,732 +0200[ - \- junit:junit:jar:4.12:test
+[INFO] [2020-11-10 13:53:14,732 +0200[ -    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] [2020-11-10 13:53:14,734 +0200[ - End parsing pom files , found : infra-util
+[INFO] [2020-11-10 13:53:14,734 +0200[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2020-11-10 13:53:14,735 +0200[ - Project/Module coordinates: Coordinates@56b11b40[groupId= org.elementalsource.infra.util,artifactId= infra-util,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:14,735 +0200[ - Total project direct dependencies found : 0
+[DEBUG] [2020-11-10 13:53:14,735 +0200[ - ProjectInfo direct dependency added : 0
+[INFO] [2020-11-10 13:53:14,737 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend\frontend-service
+[DEBUG] [2020-11-10 13:53:14,739 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend\frontend-service
+[DEBUG] [2020-11-10 13:53:14,740 +0200[ - Identified m2 path under : C:\Users\GiladAronade\.m2\repository.
+[DEBUG] [2020-11-10 13:53:15,421 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn clean install -DskipTests' in 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service'
+[DEBUG] [2020-11-10 13:53:19,071 +0200[ - Command result output lines for 'cmd /c mvn clean install -DskipTests':
+[DEBUG] [2020-11-10 13:53:19,071 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:19,073 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,073 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.frontend:frontend-service >------------
+[DEBUG] [2020-11-10 13:53:19,077 +0200[ - Read line #4: [INFO] Building frontend-service 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:19,078 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:19,079 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,080 +0200[ - Read line #7: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,081 +0200[ - Read line #8: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,081 +0200[ - Read line #9: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,082 +0200[ - Read line #10: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:19,084 +0200[ - Read line #11: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service\src\main\resources
+[DEBUG] [2020-11-10 13:53:19,087 +0200[ - Read line #12: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,087 +0200[ - Read line #13: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,088 +0200[ - Read line #14: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:19,089 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,089 +0200[ - Read line #16: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,090 +0200[ - Read line #17: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:19,090 +0200[ - Read line #18: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service\src\test\resources
+[DEBUG] [2020-11-10 13:53:19,091 +0200[ - Read line #19: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,091 +0200[ - Read line #20: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,092 +0200[ - Read line #21: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:19,095 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,096 +0200[ - Read line #23: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,096 +0200[ - Read line #24: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:53:19,097 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,097 +0200[ - Read line #26: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,098 +0200[ - Read line #27: [WARNING] JAR will be empty - no content was marked for inclusion!
+[DEBUG] [2020-11-10 13:53:19,098 +0200[ - Read line #28: [INFO] Building jar: C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:19,099 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:53:19,099 +0200[ - Read line #30: [INFO] --- maven-install-plugin:2.4:install (default-install) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:19,100 +0200[ - Read line #31: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\frontend\frontend-service\1.0-SNAPSHOT\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:19,100 +0200[ - Read line #32: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\frontend\frontend-service\1.0-SNAPSHOT\frontend-service-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:53:19,101 +0200[ - Read line #33: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:19,101 +0200[ - Read line #34: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:19,102 +0200[ - Read line #35: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:19,103 +0200[ - Read line #36: [INFO] Total time:  1.920 s
+[DEBUG] [2020-11-10 13:53:19,106 +0200[ - Read line #37: [INFO] Finished at: 2020-11-10T13:53:18+02:00
+[DEBUG] [2020-11-10 13:53:19,107 +0200[ - Read line #38: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:19,113 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service'
+[DEBUG] [2020-11-10 13:53:22,401 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-10 13:53:22,401 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:22,403 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:22,406 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.frontend:frontend-service >------------
+[DEBUG] [2020-11-10 13:53:22,407 +0200[ - Read line #4: [INFO] Building frontend-service 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:22,407 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:22,410 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:22,410 +0200[ - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ frontend-service ---
+[DEBUG] [2020-11-10 13:53:22,411 +0200[ - Read line #8: [INFO] Wrote dependency tree to: C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:22,412 +0200[ - Read line #9: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:22,415 +0200[ - Read line #10: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:22,416 +0200[ - Read line #11: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:22,417 +0200[ - Read line #12: [INFO] Total time:  1.715 s
+[DEBUG] [2020-11-10 13:53:22,418 +0200[ - Read line #13: [INFO] Finished at: 2020-11-10T13:53:22+02:00
+[DEBUG] [2020-11-10 13:53:22,419 +0200[ - Read line #14: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:22,421 +0200[ - Start parsing pom files
+[INFO] [2020-11-10 13:53:22,422 +0200[ - Reading maven dependencies tree output file 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\FRONTE~1\target\FRONTE~1.0-S\META-INF\maven\ORGELE~1.FRO\frontend-service\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:22,423 +0200[ - org.elementalsource.frontend:frontend-service:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:22,426 +0200[ - +- junit:junit:jar:4.12:test
+[INFO] [2020-11-10 13:53:22,427 +0200[ - |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] [2020-11-10 13:53:22,428 +0200[ - +- io.takari:incrementalbuild:jar:0.4.2:compile
+[INFO] [2020-11-10 13:53:22,428 +0200[ - |  \- org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO] [2020-11-10 13:53:22,429 +0200[ - +- com.h2database:h2:jar:1.4.197:compile
+[INFO] [2020-11-10 13:53:22,430 +0200[ - \- org.apache.pdfbox:pdfbox:jar:2.0.12:compile
+[INFO] [2020-11-10 13:53:22,430 +0200[ -    +- org.apache.pdfbox:fontbox:jar:2.0.12:compile
+[INFO] [2020-11-10 13:53:22,431 +0200[ -    \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] [2020-11-10 13:53:22,434 +0200[ - End parsing pom files , found : frontend-service
+[INFO] [2020-11-10 13:53:22,434 +0200[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2020-11-10 13:53:22,436 +0200[ - converting node to dependency :incrementalbuild
+[DEBUG] [2020-11-10 13:53:22,436 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:22,437 +0200[ - converting node to dependency :h2
+[DEBUG] [2020-11-10 13:53:22,437 +0200[ - converting node to dependency :pdfbox
+[DEBUG] [2020-11-10 13:53:22,438 +0200[ - converting node to dependency :fontbox
+[DEBUG] [2020-11-10 13:53:22,438 +0200[ - converting node to dependency :commons-logging
+[DEBUG] [2020-11-10 13:53:22,439 +0200[ - Project/Module coordinates: Coordinates@73e16aff[groupId= org.elementalsource.frontend,artifactId= frontend-service,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:22,440 +0200[ - Total project direct dependencies found : 3
+[DEBUG] [2020-11-10 13:53:22,440 +0200[ - ProjectInfo direct dependency added : 3
+[INFO] [2020-11-10 13:53:22,442 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business\business-service
+[DEBUG] [2020-11-10 13:53:22,443 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business\business-service
+[DEBUG] [2020-11-10 13:53:22,446 +0200[ - Identified m2 path under : C:\Users\GiladAronade\.m2\repository.
+[DEBUG] [2020-11-10 13:53:22,449 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn clean install -DskipTests' in 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service'
+[DEBUG] [2020-11-10 13:53:25,943 +0200[ - Command result output lines for 'cmd /c mvn clean install -DskipTests':
+[DEBUG] [2020-11-10 13:53:25,944 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:25,945 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,949 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.business:business-service >------------
+[DEBUG] [2020-11-10 13:53:25,950 +0200[ - Read line #4: [INFO] Building business-service 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:25,950 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:25,951 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,951 +0200[ - Read line #7: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,952 +0200[ - Read line #8: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,952 +0200[ - Read line #9: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,953 +0200[ - Read line #10: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:25,955 +0200[ - Read line #11: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service\src\main\resources
+[DEBUG] [2020-11-10 13:53:25,958 +0200[ - Read line #12: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,958 +0200[ - Read line #13: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,958 +0200[ - Read line #14: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:25,959 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,960 +0200[ - Read line #16: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,960 +0200[ - Read line #17: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:25,961 +0200[ - Read line #18: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service\src\test\resources
+[DEBUG] [2020-11-10 13:53:25,961 +0200[ - Read line #19: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,962 +0200[ - Read line #20: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,963 +0200[ - Read line #21: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:25,965 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,966 +0200[ - Read line #23: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,967 +0200[ - Read line #24: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:53:25,967 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,968 +0200[ - Read line #26: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,969 +0200[ - Read line #27: [WARNING] JAR will be empty - no content was marked for inclusion!
+[DEBUG] [2020-11-10 13:53:25,969 +0200[ - Read line #28: [INFO] Building jar: C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service\target\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:25,970 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:53:25,970 +0200[ - Read line #30: [INFO] --- maven-install-plugin:2.4:install (default-install) @ business-service ---
+[DEBUG] [2020-11-10 13:53:25,971 +0200[ - Read line #31: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service\target\business-service-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\business\business-service\1.0-SNAPSHOT\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:25,971 +0200[ - Read line #32: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\business\business-service\1.0-SNAPSHOT\business-service-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:53:25,972 +0200[ - Read line #33: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:25,972 +0200[ - Read line #34: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:25,973 +0200[ - Read line #35: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:25,973 +0200[ - Read line #36: [INFO] Total time:  1.981 s
+[DEBUG] [2020-11-10 13:53:25,973 +0200[ - Read line #37: [INFO] Finished at: 2020-11-10T13:53:25+02:00
+[DEBUG] [2020-11-10 13:53:25,974 +0200[ - Read line #38: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:25,981 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service'
+[DEBUG] [2020-11-10 13:53:30,384 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-10 13:53:30,385 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:30,387 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:30,391 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.business:business-service >------------
+[DEBUG] [2020-11-10 13:53:30,391 +0200[ - Read line #4: [INFO] Building business-service 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:30,392 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:30,394 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:30,394 +0200[ - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ business-service ---
+[DEBUG] [2020-11-10 13:53:30,395 +0200[ - Read line #8: [INFO] Wrote dependency tree to: C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:30,401 +0200[ - Read line #9: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:30,402 +0200[ - Read line #10: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:30,403 +0200[ - Read line #11: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:30,403 +0200[ - Read line #12: [INFO] Total time:  2.835 s
+[DEBUG] [2020-11-10 13:53:30,404 +0200[ - Read line #13: [INFO] Finished at: 2020-11-10T13:53:30+02:00
+[DEBUG] [2020-11-10 13:53:30,405 +0200[ - Read line #14: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:30,407 +0200[ - Start parsing pom files
+[INFO] [2020-11-10 13:53:30,408 +0200[ - Reading maven dependencies tree output file 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\BUSINE~1\target\BUSINE~1.0-S\META-INF\maven\ORGELE~1.BUS\business-service\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:30,410 +0200[ - org.elementalsource.business:business-service:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:30,412 +0200[ - +- org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT:compile
+[INFO] [2020-11-10 13:53:30,413 +0200[ - |  +- com.google.guava:guava:jar:28.2-jre:compile
+[INFO] [2020-11-10 13:53:30,413 +0200[ - |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] [2020-11-10 13:53:30,416 +0200[ - |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] [2020-11-10 13:53:30,417 +0200[ - |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] [2020-11-10 13:53:30,420 +0200[ - |  |  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+[INFO] [2020-11-10 13:53:30,423 +0200[ - |  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] [2020-11-10 13:53:30,424 +0200[ - |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] [2020-11-10 13:53:30,424 +0200[ - |  +- org.jsoup:jsoup:jar:1.10.3:compile
+[INFO] [2020-11-10 13:53:30,425 +0200[ - |  +- org.scala-lang:scala-library:jar:2.13.1:compile
+[INFO] [2020-11-10 13:53:30,427 +0200[ - |  \- org.slf4j:jcl-over-slf4j:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:30,428 +0200[ - |     \- org.slf4j:slf4j-api:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:30,430 +0200[ - +- junit:junit:jar:4.12:compile
+[INFO] [2020-11-10 13:53:30,430 +0200[ - |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] [2020-11-10 13:53:30,435 +0200[ - +- org.hibernate:hibernate-entitymanager:jar:5.4.8.Final:compile
+[INFO] [2020-11-10 13:53:30,436 +0200[ - |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] [2020-11-10 13:53:30,438 +0200[ - |  +- org.hibernate:hibernate-core:jar:5.4.8.Final:compile
+[INFO] [2020-11-10 13:53:30,440 +0200[ - |  |  +- org.javassist:javassist:jar:3.24.0-GA:compile
+[INFO] [2020-11-10 13:53:30,441 +0200[ - |  |  +- antlr:antlr:jar:2.7.7:compile
+[INFO] [2020-11-10 13:53:30,444 +0200[ - |  |  +- org.jboss:jandex:jar:2.0.5.Final:compile
+[INFO] [2020-11-10 13:53:30,444 +0200[ - |  |  +- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] [2020-11-10 13:53:30,445 +0200[ - |  |  +- javax.activation:javax.activation-api:jar:1.2.0:compile
+[INFO] [2020-11-10 13:53:30,445 +0200[ - |  |  +- javax.xml.bind:jaxb-api:jar:2.3.1:compile
+[INFO] [2020-11-10 13:53:30,445 +0200[ - |  |  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.1:compile
+[INFO] [2020-11-10 13:53:30,446 +0200[ - |  |     +- org.glassfish.jaxb:txw2:jar:2.3.1:compile
+[INFO] [2020-11-10 13:53:30,446 +0200[ - |  |     +- com.sun.istack:istack-commons-runtime:jar:3.0.7:compile
+[INFO] [2020-11-10 13:53:30,447 +0200[ - |  |     +- org.jvnet.staxex:stax-ex:jar:1.8:compile
+[INFO] [2020-11-10 13:53:30,447 +0200[ - |  |     \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15:compile
+[INFO] [2020-11-10 13:53:30,451 +0200[ - |  +- org.dom4j:dom4j:jar:2.1.1:compile
+[INFO] [2020-11-10 13:53:30,452 +0200[ - |  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+[INFO] [2020-11-10 13:53:30,456 +0200[ - |  +- javax.persistence:javax.persistence-api:jar:2.2:compile
+[INFO] [2020-11-10 13:53:30,457 +0200[ - |  +- net.bytebuddy:byte-buddy:jar:1.10.2:compile
+[INFO] [2020-11-10 13:53:30,457 +0200[ - |  \- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile
+[INFO] [2020-11-10 13:53:30,459 +0200[ - +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] [2020-11-10 13:53:30,460 +0200[ - \- com.squareup.okhttp3:okhttp:jar:4.5.0:compile
+[INFO] [2020-11-10 13:53:30,462 +0200[ -    +- com.squareup.okio:okio:jar:2.5.0:compile
+[INFO] [2020-11-10 13:53:30,465 +0200[ -    |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.3.70:compile
+[INFO] [2020-11-10 13:53:30,466 +0200[ -    \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.3.70:compile
+[INFO] [2020-11-10 13:53:30,466 +0200[ -       \- org.jetbrains:annotations:jar:13.0:compile
+[INFO] [2020-11-10 13:53:30,469 +0200[ - End parsing pom files , found : business-service
+[INFO] [2020-11-10 13:53:30,470 +0200[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2020-11-10 13:53:30,470 +0200[ - converting node to dependency :infra-mapper
+[DEBUG] [2020-11-10 13:53:30,473 +0200[ - converting node to dependency :guava
+[DEBUG] [2020-11-10 13:53:30,474 +0200[ - converting node to dependency :failureaccess
+[DEBUG] [2020-11-10 13:53:30,475 +0200[ - converting node to dependency :listenablefuture
+[DEBUG] [2020-11-10 13:53:30,476 +0200[ - converting node to dependency :jsr305
+[DEBUG] [2020-11-10 13:53:30,478 +0200[ - converting node to dependency :checker-qual
+[DEBUG] [2020-11-10 13:53:30,478 +0200[ - converting node to dependency :error_prone_annotations
+[DEBUG] [2020-11-10 13:53:30,479 +0200[ - converting node to dependency :j2objc-annotations
+[DEBUG] [2020-11-10 13:53:30,487 +0200[ - converting node to dependency :jsoup
+[DEBUG] [2020-11-10 13:53:30,488 +0200[ - converting node to dependency :scala-library
+[DEBUG] [2020-11-10 13:53:30,488 +0200[ - converting node to dependency :jcl-over-slf4j
+[DEBUG] [2020-11-10 13:53:30,489 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:30,489 +0200[ - converting node to dependency :junit
+[DEBUG] [2020-11-10 13:53:30,490 +0200[ - converting node to dependency :hamcrest-core
+[DEBUG] [2020-11-10 13:53:30,491 +0200[ - converting node to dependency :hibernate-entitymanager
+[DEBUG] [2020-11-10 13:53:30,494 +0200[ - converting node to dependency :jboss-logging
+[DEBUG] [2020-11-10 13:53:30,495 +0200[ - converting node to dependency :hibernate-core
+[DEBUG] [2020-11-10 13:53:30,497 +0200[ - converting node to dependency :javassist
+[DEBUG] [2020-11-10 13:53:30,498 +0200[ - converting node to dependency :antlr
+[DEBUG] [2020-11-10 13:53:30,500 +0200[ - converting node to dependency :jandex
+[DEBUG] [2020-11-10 13:53:30,502 +0200[ - converting node to dependency :classmate
+[DEBUG] [2020-11-10 13:53:30,503 +0200[ - converting node to dependency :javax.activation-api
+[DEBUG] [2020-11-10 13:53:30,507 +0200[ - converting node to dependency :jaxb-api
+[DEBUG] [2020-11-10 13:53:30,507 +0200[ - converting node to dependency :jaxb-runtime
+[DEBUG] [2020-11-10 13:53:30,508 +0200[ - converting node to dependency :txw2
+[DEBUG] [2020-11-10 13:53:30,509 +0200[ - converting node to dependency :istack-commons-runtime
+[DEBUG] [2020-11-10 13:53:30,509 +0200[ - converting node to dependency :stax-ex
+[DEBUG] [2020-11-10 13:53:30,510 +0200[ - converting node to dependency :FastInfoset
+[DEBUG] [2020-11-10 13:53:30,511 +0200[ - converting node to dependency :dom4j
+[DEBUG] [2020-11-10 13:53:30,514 +0200[ - converting node to dependency :hibernate-commons-annotations
+[DEBUG] [2020-11-10 13:53:30,518 +0200[ - converting node to dependency :javax.persistence-api
+[DEBUG] [2020-11-10 13:53:30,519 +0200[ - converting node to dependency :byte-buddy
+[DEBUG] [2020-11-10 13:53:30,519 +0200[ - converting node to dependency :jboss-transaction-api_1.2_spec
+[DEBUG] [2020-11-10 13:53:30,520 +0200[ - converting node to dependency :aopalliance
+[DEBUG] [2020-11-10 13:53:30,521 +0200[ - converting node to dependency :okhttp
+[DEBUG] [2020-11-10 13:53:30,522 +0200[ - converting node to dependency :okio
+[DEBUG] [2020-11-10 13:53:30,522 +0200[ - converting node to dependency :kotlin-stdlib-common
+[DEBUG] [2020-11-10 13:53:30,523 +0200[ - converting node to dependency :kotlin-stdlib
+[DEBUG] [2020-11-10 13:53:30,525 +0200[ - converting node to dependency :annotations
+[DEBUG] [2020-11-10 13:53:30,528 +0200[ - Project/Module coordinates: Coordinates@db84c82f[groupId= org.elementalsource.business,artifactId= business-service,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:30,529 +0200[ - Total project direct dependencies found : 5
+[DEBUG] [2020-11-10 13:53:30,530 +0200[ - ProjectInfo direct dependency added : 5
+[INFO] [2020-11-10 13:53:30,535 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register\register-service
+[DEBUG] [2020-11-10 13:53:30,536 +0200[ - topFolder = C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register\register-service
+[DEBUG] [2020-11-10 13:53:30,537 +0200[ - Identified m2 path under : C:\Users\GiladAronade\.m2\repository.
+[DEBUG] [2020-11-10 13:53:30,544 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn clean install -DskipTests' in 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service'
+[DEBUG] [2020-11-10 13:53:34,185 +0200[ - Command result output lines for 'cmd /c mvn clean install -DskipTests':
+[DEBUG] [2020-11-10 13:53:34,186 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:34,188 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,192 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.register:register-service >------------
+[DEBUG] [2020-11-10 13:53:34,193 +0200[ - Read line #4: [INFO] Building register-service 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:34,194 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:34,195 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,197 +0200[ - Read line #7: [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,199 +0200[ - Read line #8: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,203 +0200[ - Read line #9: [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,204 +0200[ - Read line #10: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:34,205 +0200[ - Read line #11: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service\src\main\resources
+[DEBUG] [2020-11-10 13:53:34,205 +0200[ - Read line #12: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,206 +0200[ - Read line #13: [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,206 +0200[ - Read line #14: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:34,207 +0200[ - Read line #15: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,209 +0200[ - Read line #16: [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,209 +0200[ - Read line #17: [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] [2020-11-10 13:53:34,212 +0200[ - Read line #18: [INFO] skip non existing resourceDirectory C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service\src\test\resources
+[DEBUG] [2020-11-10 13:53:34,213 +0200[ - Read line #19: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,214 +0200[ - Read line #20: [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,215 +0200[ - Read line #21: [INFO] No sources to compile
+[DEBUG] [2020-11-10 13:53:34,217 +0200[ - Read line #22: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,217 +0200[ - Read line #23: [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,218 +0200[ - Read line #24: [INFO] Tests are skipped.
+[DEBUG] [2020-11-10 13:53:34,220 +0200[ - Read line #25: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,222 +0200[ - Read line #26: [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,223 +0200[ - Read line #27: [WARNING] JAR will be empty - no content was marked for inclusion!
+[DEBUG] [2020-11-10 13:53:34,223 +0200[ - Read line #28: [INFO] Building jar: C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service\target\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:34,224 +0200[ - Read line #29: [INFO] 
+[DEBUG] [2020-11-10 13:53:34,225 +0200[ - Read line #30: [INFO] --- maven-install-plugin:2.4:install (default-install) @ register-service ---
+[DEBUG] [2020-11-10 13:53:34,225 +0200[ - Read line #31: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service\target\register-service-1.0-SNAPSHOT.jar to C:\Users\GiladAronade\.m2\repository\org\elementalsource\register\register-service\1.0-SNAPSHOT\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:34,226 +0200[ - Read line #32: [INFO] Installing C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service\pom.xml to C:\Users\GiladAronade\.m2\repository\org\elementalsource\register\register-service\1.0-SNAPSHOT\register-service-1.0-SNAPSHOT.pom
+[DEBUG] [2020-11-10 13:53:34,226 +0200[ - Read line #33: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:34,226 +0200[ - Read line #34: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:34,227 +0200[ - Read line #35: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:34,227 +0200[ - Read line #36: [INFO] Total time:  1.835 s
+[DEBUG] [2020-11-10 13:53:34,228 +0200[ - Read line #37: [INFO] Finished at: 2020-11-10T13:53:34+02:00
+[DEBUG] [2020-11-10 13:53:34,231 +0200[ - Read line #38: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:34,236 +0200[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service'
+[DEBUG] [2020-11-10 13:53:37,568 +0200[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-11-10 13:53:37,568 +0200[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-11-10 13:53:37,570 +0200[ - Read line #2: [INFO] 
+[DEBUG] [2020-11-10 13:53:37,570 +0200[ - Read line #3: [INFO] -----------< org.elementalsource.register:register-service >------------
+[DEBUG] [2020-11-10 13:53:37,574 +0200[ - Read line #4: [INFO] Building register-service 1.0-SNAPSHOT
+[DEBUG] [2020-11-10 13:53:37,574 +0200[ - Read line #5: [INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] [2020-11-10 13:53:37,575 +0200[ - Read line #6: [INFO] 
+[DEBUG] [2020-11-10 13:53:37,575 +0200[ - Read line #7: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ register-service ---
+[DEBUG] [2020-11-10 13:53:37,576 +0200[ - Read line #8: [INFO] Wrote dependency tree to: C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-11-10 13:53:37,576 +0200[ - Read line #9: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:37,577 +0200[ - Read line #10: [INFO] BUILD SUCCESS
+[DEBUG] [2020-11-10 13:53:37,577 +0200[ - Read line #11: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:37,578 +0200[ - Read line #12: [INFO] Total time:  1.771 s
+[DEBUG] [2020-11-10 13:53:37,581 +0200[ - Read line #13: [INFO] Finished at: 2020-11-10T13:53:37+02:00
+[DEBUG] [2020-11-10 13:53:37,582 +0200[ - Read line #14: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:37,584 +0200[ - Start parsing pom files
+[INFO] [2020-11-10 13:53:37,584 +0200[ - Reading maven dependencies tree output file 'C:\Users\GILADA~1\AppData\Local\Temp\WS-UA_~1\ARCHIV~1\202011~1\MULTI-~1\REGIST~1\target\REGIST~1.0-S\META-INF\maven\ORGELE~1.REG\register-service\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-11-10 13:53:37,585 +0200[ - org.elementalsource.register:register-service:jar:1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:37,585 +0200[ - +- org.elementalsource.infra.mapper:infra-mapper:jar:1.0-SNAPSHOT:compile
+[INFO] [2020-11-10 13:53:37,585 +0200[ - |  +- com.google.guava:guava:jar:28.2-jre:compile
+[INFO] [2020-11-10 13:53:37,586 +0200[ - |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] [2020-11-10 13:53:37,586 +0200[ - |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] [2020-11-10 13:53:37,587 +0200[ - |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] [2020-11-10 13:53:37,587 +0200[ - |  |  +- org.checkerframework:checker-qual:jar:2.10.0:compile
+[INFO] [2020-11-10 13:53:37,588 +0200[ - |  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] [2020-11-10 13:53:37,588 +0200[ - |  |  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] [2020-11-10 13:53:37,589 +0200[ - |  +- org.jsoup:jsoup:jar:1.10.3:compile
+[INFO] [2020-11-10 13:53:37,591 +0200[ - |  +- org.scala-lang:scala-library:jar:2.13.1:compile
+[INFO] [2020-11-10 13:53:37,592 +0200[ - |  \- org.slf4j:jcl-over-slf4j:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:37,592 +0200[ - |     \- org.slf4j:slf4j-api:jar:1.7.28:compile
+[INFO] [2020-11-10 13:53:37,593 +0200[ - \- junit:junit:jar:4.12:test
+[INFO] [2020-11-10 13:53:37,593 +0200[ -    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] [2020-11-10 13:53:37,595 +0200[ - End parsing pom files , found : register-service
+[INFO] [2020-11-10 13:53:37,595 +0200[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2020-11-10 13:53:37,596 +0200[ - converting node to dependency :infra-mapper
+[DEBUG] [2020-11-10 13:53:37,596 +0200[ - converting node to dependency :guava
+[DEBUG] [2020-11-10 13:53:37,597 +0200[ - converting node to dependency :failureaccess
+[DEBUG] [2020-11-10 13:53:37,597 +0200[ - converting node to dependency :listenablefuture
+[DEBUG] [2020-11-10 13:53:37,598 +0200[ - converting node to dependency :jsr305
+[DEBUG] [2020-11-10 13:53:37,598 +0200[ - converting node to dependency :checker-qual
+[DEBUG] [2020-11-10 13:53:37,599 +0200[ - converting node to dependency :error_prone_annotations
+[DEBUG] [2020-11-10 13:53:37,599 +0200[ - converting node to dependency :j2objc-annotations
+[DEBUG] [2020-11-10 13:53:37,600 +0200[ - converting node to dependency :jsoup
+[DEBUG] [2020-11-10 13:53:37,602 +0200[ - converting node to dependency :scala-library
+[DEBUG] [2020-11-10 13:53:37,604 +0200[ - converting node to dependency :jcl-over-slf4j
+[DEBUG] [2020-11-10 13:53:37,604 +0200[ - converting node to dependency :slf4j-api
+[DEBUG] [2020-11-10 13:53:37,605 +0200[ - Project/Module coordinates: Coordinates@32b5aca7[groupId= org.elementalsource.register,artifactId= register-service,version= 1.0-SNAPSHOT ]
+[DEBUG] [2020-11-10 13:53:37,605 +0200[ - Total project direct dependencies found : 1
+[DEBUG] [2020-11-10 13:53:37,606 +0200[ - ProjectInfo direct dependency added : 1
+[INFO] [2020-11-10 13:53:37,608 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:37,610 +0200[ - total resolved projects =5
+[DEBUG] [2020-11-10 13:53:37,610 +0200[ - total resolved projects =1
+[DEBUG] [2020-11-10 13:53:37,610 +0200[ - total resolved projects =1
+[DEBUG] [2020-11-10 13:53:37,611 +0200[ - total resolved projects =1
+[DEBUG] [2020-11-10 13:53:37,614 +0200[ - total resolved projects =1
+[DEBUG] [2020-11-10 13:53:37,615 +0200[ - total resolved projects =1
+[INFO] [2020-11-10 13:53:37,616 +0200[ - Scanning directories [C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246, C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2020-11-10 13:53:37,617 +0200[ - Scanning C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246
+[DEBUG] [2020-11-10 13:53:37,620 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\business-service\target\business-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.business\business-service\target\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,624 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\frontend-service\target\frontend-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.frontend\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,628 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-mapper\target\infra-mapper-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.mapper\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,632 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\infra-util\target\infra-util-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.infra.util\infra-util\target\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,636 +0200[ - Dependency file found location: C:\Users\GILADA~1\AppData\Local\Temp\ws-ua_20201110135245_DLZSED\archiveExtraction_HBUAUI\20201110135246\multi-module-maven-project-master_depth_0\register-service\target\register-service-1.0-SNAPSHOT\META-INF\maven\org.elementalsource.register\register-service\target\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,637 +0200[ - Scanning C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master
+[DEBUG] [2020-11-10 13:53:37,640 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\business-service\target\business-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,648 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\frontend-service\target\frontend-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,654 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-mapper\target\infra-mapper-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,660 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\infra-util\target\infra-util-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,666 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\register-service\target\register-service-1.0-SNAPSHOT.jar
+[DEBUG] [2020-11-10 13:53:37,668 +0200[ - Dependency file found location: C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\wss-unified-agent-20.10.1.jar
+[INFO] [2020-11-10 13:53:37,669 +0200[ - Total files found according to the includes/excludes pattern: 11
+[INFO] [2020-11-10 13:53:38,216 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[DEBUG] [2020-11-10 13:53:38,219 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.
+[DEBUG] [2020-11-10 13:53:38,219 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service
+[DEBUG] [2020-11-10 13:53:38,220 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src
+[DEBUG] [2020-11-10 13:53:38,220 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\main
+[DEBUG] [2020-11-10 13:53:38,221 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\main\java
+[DEBUG] [2020-11-10 13:53:38,222 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\main\java\org
+[DEBUG] [2020-11-10 13:53:38,222 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\main\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,223 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\main\java\org\elementalsource\app
+[DEBUG] [2020-11-10 13:53:38,223 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\main\java\org\elementalsource\business
+[DEBUG] [2020-11-10 13:53:38,224 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\test
+[DEBUG] [2020-11-10 13:53:38,227 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\test\java
+[DEBUG] [2020-11-10 13:53:38,228 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\test\java\org
+[DEBUG] [2020-11-10 13:53:38,229 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\test\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,229 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\src\test\java\org\elementalsource\business
+[DEBUG] [2020-11-10 13:53:38,230 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target
+[DEBUG] [2020-11-10 13:53:38,230 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\classes
+[DEBUG] [2020-11-10 13:53:38,231 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\classes\org
+[DEBUG] [2020-11-10 13:53:38,231 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,232 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\classes\org\elementalsource\app
+[DEBUG] [2020-11-10 13:53:38,232 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\classes\org\elementalsource\business
+[DEBUG] [2020-11-10 13:53:38,233 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\generated-sources
+[DEBUG] [2020-11-10 13:53:38,233 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\generated-sources\annotations
+[DEBUG] [2020-11-10 13:53:38,234 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\generated-test-sources
+[DEBUG] [2020-11-10 13:53:38,234 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\generated-test-sources\test-annotations
+[DEBUG] [2020-11-10 13:53:38,235 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\maven-archiver
+[DEBUG] [2020-11-10 13:53:38,238 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\maven-status
+[DEBUG] [2020-11-10 13:53:38,240 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\maven-status\maven-compiler-plugin
+[DEBUG] [2020-11-10 13:53:38,241 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\maven-status\maven-compiler-plugin\compile
+[DEBUG] [2020-11-10 13:53:38,241 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\maven-status\maven-compiler-plugin\compile\default-compile
+[DEBUG] [2020-11-10 13:53:38,242 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\maven-status\maven-compiler-plugin\testCompile
+[DEBUG] [2020-11-10 13:53:38,242 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[DEBUG] [2020-11-10 13:53:38,243 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\test-classes
+[DEBUG] [2020-11-10 13:53:38,243 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\test-classes\org
+[DEBUG] [2020-11-10 13:53:38,243 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\test-classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,244 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\business-service\target\test-classes\org\elementalsource\business
+[DEBUG] [2020-11-10 13:53:38,245 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service
+[DEBUG] [2020-11-10 13:53:38,245 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src
+[DEBUG] [2020-11-10 13:53:38,246 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\main
+[DEBUG] [2020-11-10 13:53:38,249 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\main\java
+[DEBUG] [2020-11-10 13:53:38,249 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\main\java\org
+[DEBUG] [2020-11-10 13:53:38,251 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\main\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,251 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\main\java\org\elementalsource\frontend
+[DEBUG] [2020-11-10 13:53:38,252 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\test
+[DEBUG] [2020-11-10 13:53:38,252 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\test\java
+[DEBUG] [2020-11-10 13:53:38,253 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\test\java\org
+[DEBUG] [2020-11-10 13:53:38,253 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\test\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,254 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\src\test\java\org\elementalsource\frontend
+[DEBUG] [2020-11-10 13:53:38,255 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target
+[DEBUG] [2020-11-10 13:53:38,255 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\classes
+[DEBUG] [2020-11-10 13:53:38,256 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\classes\org
+[DEBUG] [2020-11-10 13:53:38,256 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,257 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\classes\org\elementalsource\frontend
+[DEBUG] [2020-11-10 13:53:38,260 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\generated-sources
+[DEBUG] [2020-11-10 13:53:38,261 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\generated-sources\annotations
+[DEBUG] [2020-11-10 13:53:38,262 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\generated-test-sources
+[DEBUG] [2020-11-10 13:53:38,263 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\generated-test-sources\test-annotations
+[DEBUG] [2020-11-10 13:53:38,263 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\maven-archiver
+[DEBUG] [2020-11-10 13:53:38,264 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\maven-status
+[DEBUG] [2020-11-10 13:53:38,264 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\maven-status\maven-compiler-plugin
+[DEBUG] [2020-11-10 13:53:38,264 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\maven-status\maven-compiler-plugin\compile
+[DEBUG] [2020-11-10 13:53:38,265 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\maven-status\maven-compiler-plugin\compile\default-compile
+[DEBUG] [2020-11-10 13:53:38,266 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\maven-status\maven-compiler-plugin\testCompile
+[DEBUG] [2020-11-10 13:53:38,266 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[DEBUG] [2020-11-10 13:53:38,267 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\test-classes
+[DEBUG] [2020-11-10 13:53:38,267 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\test-classes\org
+[DEBUG] [2020-11-10 13:53:38,267 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\test-classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,268 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\frontend-service\target\test-classes\org\elementalsource\frontend
+[DEBUG] [2020-11-10 13:53:38,269 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper
+[DEBUG] [2020-11-10 13:53:38,272 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src
+[DEBUG] [2020-11-10 13:53:38,273 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\main
+[DEBUG] [2020-11-10 13:53:38,274 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\main\java
+[DEBUG] [2020-11-10 13:53:38,274 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\main\java\org
+[DEBUG] [2020-11-10 13:53:38,275 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\main\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,276 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\main\java\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,276 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\main\java\org\elementalsource\infra\mapper
+[DEBUG] [2020-11-10 13:53:38,277 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\test
+[DEBUG] [2020-11-10 13:53:38,277 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\test\java
+[DEBUG] [2020-11-10 13:53:38,278 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\test\java\org
+[DEBUG] [2020-11-10 13:53:38,279 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\test\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,279 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\test\java\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,280 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\src\test\java\org\elementalsource\infra\mapper
+[DEBUG] [2020-11-10 13:53:38,284 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target
+[DEBUG] [2020-11-10 13:53:38,284 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\classes
+[DEBUG] [2020-11-10 13:53:38,285 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\classes\org
+[DEBUG] [2020-11-10 13:53:38,286 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,286 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\classes\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,287 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\classes\org\elementalsource\infra\mapper
+[DEBUG] [2020-11-10 13:53:38,287 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\generated-sources
+[DEBUG] [2020-11-10 13:53:38,288 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\generated-sources\annotations
+[DEBUG] [2020-11-10 13:53:38,288 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\generated-test-sources
+[DEBUG] [2020-11-10 13:53:38,289 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\generated-test-sources\test-annotations
+[DEBUG] [2020-11-10 13:53:38,290 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\maven-archiver
+[DEBUG] [2020-11-10 13:53:38,290 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\maven-status
+[DEBUG] [2020-11-10 13:53:38,290 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\maven-status\maven-compiler-plugin
+[DEBUG] [2020-11-10 13:53:38,291 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\maven-status\maven-compiler-plugin\compile
+[DEBUG] [2020-11-10 13:53:38,291 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\maven-status\maven-compiler-plugin\compile\default-compile
+[DEBUG] [2020-11-10 13:53:38,295 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\maven-status\maven-compiler-plugin\testCompile
+[DEBUG] [2020-11-10 13:53:38,297 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[DEBUG] [2020-11-10 13:53:38,297 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\test-classes
+[DEBUG] [2020-11-10 13:53:38,298 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\test-classes\org
+[DEBUG] [2020-11-10 13:53:38,298 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\test-classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,299 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\test-classes\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,299 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-mapper\target\test-classes\org\elementalsource\infra\mapper
+[DEBUG] [2020-11-10 13:53:38,300 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util
+[DEBUG] [2020-11-10 13:53:38,300 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src
+[DEBUG] [2020-11-10 13:53:38,301 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\main
+[DEBUG] [2020-11-10 13:53:38,301 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\main\java
+[DEBUG] [2020-11-10 13:53:38,302 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\main\java\org
+[DEBUG] [2020-11-10 13:53:38,302 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\main\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,303 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\main\java\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,306 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\main\java\org\elementalsource\infra\util
+[DEBUG] [2020-11-10 13:53:38,307 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\test
+[DEBUG] [2020-11-10 13:53:38,308 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\test\java
+[DEBUG] [2020-11-10 13:53:38,309 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\test\java\org
+[DEBUG] [2020-11-10 13:53:38,309 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\test\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,310 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\test\java\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,310 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\src\test\java\org\elementalsource\infra\util
+[DEBUG] [2020-11-10 13:53:38,311 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target
+[DEBUG] [2020-11-10 13:53:38,311 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\classes
+[DEBUG] [2020-11-10 13:53:38,312 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\classes\org
+[DEBUG] [2020-11-10 13:53:38,313 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,313 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\classes\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,314 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\classes\org\elementalsource\infra\util
+[DEBUG] [2020-11-10 13:53:38,314 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\generated-sources
+[DEBUG] [2020-11-10 13:53:38,315 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\generated-sources\annotations
+[DEBUG] [2020-11-10 13:53:38,318 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\generated-test-sources
+[DEBUG] [2020-11-10 13:53:38,318 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\generated-test-sources\test-annotations
+[DEBUG] [2020-11-10 13:53:38,320 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\maven-archiver
+[DEBUG] [2020-11-10 13:53:38,321 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\maven-status
+[DEBUG] [2020-11-10 13:53:38,321 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\maven-status\maven-compiler-plugin
+[DEBUG] [2020-11-10 13:53:38,322 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\maven-status\maven-compiler-plugin\compile
+[DEBUG] [2020-11-10 13:53:38,322 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\maven-status\maven-compiler-plugin\compile\default-compile
+[DEBUG] [2020-11-10 13:53:38,323 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\maven-status\maven-compiler-plugin\testCompile
+[DEBUG] [2020-11-10 13:53:38,323 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[DEBUG] [2020-11-10 13:53:38,324 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\test-classes
+[DEBUG] [2020-11-10 13:53:38,324 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\test-classes\org
+[DEBUG] [2020-11-10 13:53:38,325 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\test-classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,325 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\test-classes\org\elementalsource\infra
+[DEBUG] [2020-11-10 13:53:38,326 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\infra-util\target\test-classes\org\elementalsource\infra\util
+[DEBUG] [2020-11-10 13:53:38,327 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service
+[DEBUG] [2020-11-10 13:53:38,330 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src
+[DEBUG] [2020-11-10 13:53:38,330 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\main
+[DEBUG] [2020-11-10 13:53:38,332 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\main\java
+[DEBUG] [2020-11-10 13:53:38,332 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\main\java\org
+[DEBUG] [2020-11-10 13:53:38,333 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\main\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,333 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\main\java\org\elementalsource\register
+[DEBUG] [2020-11-10 13:53:38,334 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\test
+[DEBUG] [2020-11-10 13:53:38,334 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\test\java
+[DEBUG] [2020-11-10 13:53:38,335 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\test\java\org
+[DEBUG] [2020-11-10 13:53:38,336 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\test\java\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,336 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\src\test\java\org\elementalsource\register
+[DEBUG] [2020-11-10 13:53:38,337 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target
+[DEBUG] [2020-11-10 13:53:38,337 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\classes
+[DEBUG] [2020-11-10 13:53:38,338 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\classes\org
+[DEBUG] [2020-11-10 13:53:38,341 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,343 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\classes\org\elementalsource\register
+[DEBUG] [2020-11-10 13:53:38,343 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\generated-sources
+[DEBUG] [2020-11-10 13:53:38,343 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\generated-sources\annotations
+[DEBUG] [2020-11-10 13:53:38,344 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\generated-test-sources
+[DEBUG] [2020-11-10 13:53:38,344 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\generated-test-sources\test-annotations
+[DEBUG] [2020-11-10 13:53:38,345 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\maven-archiver
+[DEBUG] [2020-11-10 13:53:38,346 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\maven-status
+[DEBUG] [2020-11-10 13:53:38,346 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\maven-status\maven-compiler-plugin
+[DEBUG] [2020-11-10 13:53:38,347 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\maven-status\maven-compiler-plugin\compile
+[DEBUG] [2020-11-10 13:53:38,347 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\maven-status\maven-compiler-plugin\compile\default-compile
+[DEBUG] [2020-11-10 13:53:38,348 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\maven-status\maven-compiler-plugin\testCompile
+[DEBUG] [2020-11-10 13:53:38,349 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[DEBUG] [2020-11-10 13:53:38,353 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\test-classes
+[DEBUG] [2020-11-10 13:53:38,354 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\test-classes\org
+[DEBUG] [2020-11-10 13:53:38,354 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\test-classes\org\elementalsource
+[DEBUG] [2020-11-10 13:53:38,355 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\register-service\target\test-classes\org\elementalsource\register
+[DEBUG] [2020-11-10 13:53:38,356 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\whitesource
+[DEBUG] [2020-11-10 13:53:38,356 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\whitesource\Tue-Nov-10-2020-13.03.58
+[DEBUG] [2020-11-10 13:53:38,357 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\whitesource\Tue-Nov-10-2020-13.05.21
+[DEBUG] [2020-11-10 13:53:38,357 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\whitesource\Tue-Nov-10-2020-13.39.46
+[DEBUG] [2020-11-10 13:53:38,358 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\whitesource\Tue-Nov-10-2020-13.47.52
+[DEBUG] [2020-11-10 13:53:38,358 +0200[ - Folder added : C:\Sivan\multi-module-maven-project-master\multi-module-maven-project-master\.\whitesource\Tue-Nov-10-2020-13.52.45
+[INFO] [2020-11-10 13:53:38,449 +0200[ - Finished analyzing Files
+[DEBUG] [2020-11-10 13:53:38,450 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	44
+Max memory (Mb): 	247
+Total memory (Mb): 	224
+Used memory (Mb): 	180
+
+[INFO] [2020-11-10 13:53:38,540 +0200[ - Initializing WhiteSource Client
+[DEBUG] [2020-11-10 13:53:38,540 +0200[ - Setting project tags
+[INFO] [2020-11-10 13:53:38,542 +0200[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2020-11-10 13:53:38,667 +0200[ - UpdateType set to OVERRIDE 
+[INFO] [2020-11-10 13:53:38,667 +0200[ - Sending Update
+[INFO] [2020-11-10 13:53:38,669 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Update Inventory ---------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:42,505 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Update Inventory -----------------------------
+------------------------------------------------------------------------
+[INFO] [2020-11-10 13:53:42,514 +0200[ - Inventory update results for Sivan demo
+[INFO] [2020-11-10 13:53:42,519 +0200[ - Newly created projects:
+[INFO] [2020-11-10 13:53:42,522 +0200[ - # Sivan demo
+[INFO] [2020-11-10 13:53:42,522 +0200[ - # infra-mapper - 1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:42,523 +0200[ - # business-service - 1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:42,523 +0200[ - # register-service - 1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:42,524 +0200[ - # frontend-service - 1.0-SNAPSHOT
+[INFO] [2020-11-10 13:53:42,525 +0200[ - No projects were updated.
+[INFO] [2020-11-10 13:53:42,525 +0200[ - Project name: register-service - 1.0-SNAPSHOT, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257975
+[INFO] [2020-11-10 13:53:42,526 +0200[ - Project name: frontend-service - 1.0-SNAPSHOT, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257976
+[INFO] [2020-11-10 13:53:42,526 +0200[ - Project name: business-service - 1.0-SNAPSHOT, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257974
+[INFO] [2020-11-10 13:53:42,527 +0200[ - Project name: Sivan demo, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257972
+[INFO] [2020-11-10 13:53:42,529 +0200[ - Project name: infra-mapper - 1.0-SNAPSHOT, URL: https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257973
+[INFO] [2020-11-10 13:53:42,532 +0200[ - Support Token: 20823138895744fa39fad2d42eaa1ff851605009220026
+[DEBUG] [2020-11-10 13:53:42,533 +0200[ - Process finished with exit code SUCCESS (Inventory update results for Sivan demo
+Newly created projects:
+Sivan demo
+infra-mapper - 1.0-SNAPSHOT
+business-service - 1.0-SNAPSHOT
+register-service - 1.0-SNAPSHOT
+frontend-service - 1.0-SNAPSHOT
+No projects were updated.
+
+Project name: register-service - 1.0-SNAPSHOT, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257975
+Project name: frontend-service - 1.0-SNAPSHOT, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257976
+Project name: business-service - 1.0-SNAPSHOT, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257974
+Project name: Sivan demo, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257972
+Project name: infra-mapper - 1.0-SNAPSHOT, project URL:https://saas.whitesourcesoftware.com/Wss/WSS.html#!project;id=3257973
+Support Token: 20823138895744fa39fad2d42eaa1ff851605009220026)
+[INFO] [2020-11-10 13:53:42,534 +0200[ - Log files are found at: .\whitesource\Tue-Nov-10-2020-13.52.45
+[INFO] [2020-11-10 13:53:42,540 +0200[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.114               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:50.417               140 total dependencies (45 unique)
+   MAVEN                                             COMPLETED                  00:00:50.417               140 total dependencies (45 unique)
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.648               11 source/binary files
+   jar                                               COMPLETED                    --------                 11 source/binary files
+Update Inventory                                     COMPLETED                  00:00:03.836               0 updated projects
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:55.015
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+
